@@ -1,0 +1,137 @@
+[0.041s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_controllers': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_controllers -- -j2 -l2
+[0.132s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[0.143s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.177s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.181s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.194s] [  0%] Built target baxter_core_msgs_generate_messages_py
+[0.212s] [  0%] Built target baxter_core_msgs_generate_messages_nodejs
+[0.219s] [  0%] Built target baxter_core_msgs_generate_messages_lisp
+[0.244s] [  0%] Built target baxter_core_msgs_generate_messages_cpp
+[0.257s] [  0%] Built target dynamic_reconfigure_gencfg
+[0.265s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.281s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.286s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.300s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.308s] [  0%] Built target std_msgs_generate_messages_eus
+[0.337s] [  0%] Built target roscpp_generate_messages_lisp
+[0.361s] [  0%] Built target std_msgs_generate_messages_py
+[0.381s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.391s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.413s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.418s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.453s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.453s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.478s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.485s] [  0%] Built target baxter_core_msgs_generate_messages_eus
+[0.498s] [  0%] Built target trajectory_msgs_generate_messages_py
+[0.516s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.535s] [  0%] Built target control_toolbox_generate_messages_cpp
+[0.563s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[0.566s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.588s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.601s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.646s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.652s] [  0%] Built target control_toolbox_gencfg
+[0.692s] [  0%] Built target roscpp_generate_messages_eus
+[0.694s] [  0%] Built target roscpp_generate_messages_cpp
+[0.717s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.747s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[0.751s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.786s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.794s] [  0%] Built target control_msgs_generate_messages_eus
+[0.836s] [  0%] Built target roscpp_generate_messages_py
+[0.855s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.883s] [  0%] Built target control_toolbox_generate_messages_lisp
+[0.889s] [  0%] Built target control_toolbox_generate_messages_eus
+[0.923s] [  0%] Built target control_toolbox_generate_messages_py
+[0.925s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.970s] [  0%] Built target control_msgs_generate_messages_cpp
+[0.973s] [  0%] Built target control_toolbox_generate_messages_nodejs
+[0.989s] [  0%] Built target control_msgs_generate_messages_py
+[1.021s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.028s] [  0%] Built target control_msgs_generate_messages_nodejs
+[1.064s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.072s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.095s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.101s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.134s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[1.144s] [  0%] Built target control_msgs_generate_messages_lisp
+[1.190s] [100%] Built target baxter_sim_controllers
+[1.200s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_controllers' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_controllers -- -j2 -l2
+[1.341s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_controllers': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_controllers --target tests -- -j2 -l2
+[1.434s] Built target tests
+[1.453s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_controllers' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_controllers --target tests -- -j2 -l2
+[1.611s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_controllers': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_controllers --target install -- -j2 -l2
+[1.696s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.701s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[1.725s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.730s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[1.762s] [  0%] Built target baxter_core_msgs_generate_messages_nodejs
+[1.771s] [  0%] Built target baxter_core_msgs_generate_messages_py
+[1.790s] [  0%] Built target baxter_core_msgs_generate_messages_lisp
+[1.793s] [  0%] Built target baxter_core_msgs_generate_messages_cpp
+[1.812s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[1.813s] [  0%] Built target dynamic_reconfigure_gencfg
+[1.847s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[1.858s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[1.864s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[1.894s] [  0%] Built target roscpp_generate_messages_lisp
+[1.905s] [  0%] Built target std_msgs_generate_messages_eus
+[1.931s] [  0%] Built target std_msgs_generate_messages_py
+[1.937s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.971s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.986s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.995s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.013s] [  0%] Built target sensor_msgs_generate_messages_eus
+[2.037s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.039s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.063s] [  0%] Built target trajectory_msgs_generate_messages_py
+[2.070s] [  0%] Built target baxter_core_msgs_generate_messages_eus
+[2.095s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.123s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[2.134s] [  0%] Built target control_toolbox_generate_messages_cpp
+[2.155s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.170s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[2.202s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.207s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[2.261s] [  0%] Built target control_toolbox_gencfg
+[2.266s] [  0%] Built target roscpp_generate_messages_eus
+[2.295s] [  0%] Built target roscpp_generate_messages_cpp
+[2.299s] [  0%] Built target actionlib_msgs_generate_messages_py
+[2.335s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.368s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[2.392s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.406s] [  0%] Built target control_msgs_generate_messages_eus
+[2.427s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.441s] [  0%] Built target roscpp_generate_messages_py
+[2.466s] [  0%] Built target control_toolbox_generate_messages_eus
+[2.482s] [  0%] Built target control_toolbox_generate_messages_lisp
+[2.503s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.509s] [  0%] Built target control_toolbox_generate_messages_py
+[2.533s] [  0%] Built target control_toolbox_generate_messages_nodejs
+[2.542s] [  0%] Built target control_msgs_generate_messages_cpp
+[2.583s] [  0%] Built target control_msgs_generate_messages_py
+[2.587s] [  0%] Built target control_msgs_generate_messages_nodejs
+[2.618s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[2.626s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.655s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.685s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.732s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.739s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[2.792s] [  0%] Built target control_msgs_generate_messages_lisp
+[2.843s] [100%] Built target baxter_sim_controllers
+[2.881s] [36mInstall the project...[0m
+[2.895s] -- Install configuration: ""
+[2.897s] -- Execute custom install script
+[2.898s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/pkgconfig/baxter_sim_controllers.pc
+[2.898s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/cmake/baxter_sim_controllersConfig.cmake
+[2.899s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/cmake/baxter_sim_controllersConfig-version.cmake
+[2.900s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/package.xml
+[2.900s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/libbaxter_sim_controllers.so
+[2.901s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/config/baxter_sim_controllers_plugins.xml
+[2.902s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/include/baxter_sim_controllers/baxter_effort_controller.h
+[2.902s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/include/baxter_sim_controllers/baxter_gripper_controller.h
+[2.903s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/include/baxter_sim_controllers/baxter_head_controller.h
+[2.903s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/include/baxter_sim_controllers/baxter_position_controller.h
+[2.904s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_controllers/share/baxter_sim_controllers/include/baxter_sim_controllers/baxter_velocity_controller.h
+[2.910s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_controllers' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_controllers --target install -- -j2 -l2

@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (-) JobUnselected: {'identifier': 'baxter_common'}
+[0.000291] (-) JobUnselected: {'identifier': 'baxter_core_msgs'}
+[0.000334] (-) JobUnselected: {'identifier': 'baxter_description'}
+[0.000374] (-) JobUnselected: {'identifier': 'baxter_examples'}
+[0.000413] (-) JobUnselected: {'identifier': 'baxter_gazebo'}
+[0.000460] (-) JobUnselected: {'identifier': 'baxter_interface'}
+[0.000503] (-) JobUnselected: {'identifier': 'baxter_maintenance_msgs'}
+[0.000542] (-) JobUnselected: {'identifier': 'baxter_sdk'}
+[0.000580] (-) JobUnselected: {'identifier': 'baxter_sim_controllers'}
+[0.000618] (-) JobUnselected: {'identifier': 'baxter_sim_examples'}
+[0.000655] (-) JobUnselected: {'identifier': 'baxter_sim_hardware'}
+[0.000692] (-) JobUnselected: {'identifier': 'baxter_sim_io'}
+[0.000712] (-) JobUnselected: {'identifier': 'baxter_sim_kinematics'}
+[0.000730] (-) JobUnselected: {'identifier': 'baxter_simulator'}
+[0.000749] (-) JobUnselected: {'identifier': 'baxter_tools'}
+[0.000767] (-) JobUnselected: {'identifier': 'rethink_ee_description'}
+[0.000807] (ros1_bridge) JobQueued: {'dependencies': OrderedDict(), 'identifier': 'ros1_bridge'}
+[0.001488] (ros1_bridge) JobStarted: {'identifier': 'ros1_bridge'}
+[0.022219] (ros1_bridge) JobProgress: {'progress': 'cmake', 'identifier': 'ros1_bridge'}
+[0.022809] (ros1_bridge) Command: {'cwd': '/home/rick/catkin_ws/src/build/ros1_bridge', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GNOME_KEYRING_PID', ''), ('USER', 'rick'), ('LANGUAGE', 'en_US'), ('XDG_SEAT', 'seat0'), ('SESSION', 'ubuntu'), ('ROS_PACKAGE_PATH', '/opt/ros/kinetic/share'), ('XDG_SESSION_TYPE', 'x11'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('LD_LIBRARY_PATH', '/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('ROS_ETC_DIR', '/opt/ros/kinetic/etc/ros'), ('HOME', '/home/rick'), ('QT4_IM_MODULE', 'xim'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_LINUX_ACCESSIBILITY_ALWAYS_ON', '1'), ('ROS_PYTHON_VERSION', '2'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('INSTANCE', ''), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-0KMCZTytSn'), ('GNOME_KEYRING_CONTROL', ''), ('QT_QPA_PLATFORMTHEME', 'appmenu-qt5'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('SESSIONTYPE', 'gnome-session'), ('ROS_DISTRO', 'kinetic'), ('LOGNAME', 'rick'), ('GTK_IM_MODULE', 'ibus'), ('WINDOWID', '16781599'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('PKG_CONFIG_PATH', '/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_ID', 'c1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/kinetic/bin:/home/rick/bin:/home/rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1245,unix/ubuntu:/tmp/.ICE-unix/1245'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('ROS_ROOT', '/opt/ros/kinetic/share/ros'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XMODIFIERS', '@im=ibus'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/rick/.Xauthority'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/rick'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/home/rick/.gnupg/S.gpg-agent:0:1'), ('UPSTART_SESSION', 'unix:abstract=/com/ubuntu/upstart-session/1000/990'), ('XDG_VTNR', '7'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rick/catkin_ws/src/build/ros1_bridge'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/kinetic/lib/python2.7/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '4205'), ('JOB', 'dbus'), ('CMAKE_PREFIX_PATH', '/opt/ros/kinetic')]), 'cmd': ['/usr/bin/cmake', '/home/rick/catkin_ws/src/ros1_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/rick/catkin_ws/src/install/ros1_bridge'], 'shell': False}
+[0.100513] (-) TimerEvent: {}
+[0.135473] (ros1_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 5.4.0\n'}
+[0.201467] (-) TimerEvent: {}
+[0.242438] (ros1_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 5.4.0\n'}
+[0.250372] (ros1_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.301691] (-) TimerEvent: {}
+[0.339756] (ros1_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.340641] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.402678] (-) TimerEvent: {}
+[0.447826] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.452939] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.503520] (-) TimerEvent: {}
+[0.604576] (-) TimerEvent: {}
+[0.705165] (-) TimerEvent: {}
+[0.762990] (ros1_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.769032] (ros1_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.805696] (-) TimerEvent: {}
+[0.885582] (ros1_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.887361] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.906501] (-) TimerEvent: {}
+[0.992597] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.007074] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.007341] (-) TimerEvent: {}
+[1.107711] (-) TimerEvent: {}
+[1.208401] (-) TimerEvent: {}
+[1.309516] (-) TimerEvent: {}
+[1.376220] (ros1_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.386223] (ros1_bridge) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[1.386475] (ros1_bridge) StderrLine: {'line': b'  By not providing "Findrmw.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.386673] (ros1_bridge) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "rmw", but\n'}
+[1.386854] (ros1_bridge) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.387040] (ros1_bridge) StderrLine: {'line': b'\n'}
+[1.387218] (ros1_bridge) StderrLine: {'line': b'  Could not find a package configuration file provided by "rmw" with any of\n'}
+[1.387399] (ros1_bridge) StderrLine: {'line': b'  the following names:\n'}
+[1.387602] (ros1_bridge) StderrLine: {'line': b'\n'}
+[1.387781] (ros1_bridge) StderrLine: {'line': b'    rmwConfig.cmake\n'}
+[1.387958] (ros1_bridge) StderrLine: {'line': b'    rmw-config.cmake\n'}
+[1.388137] (ros1_bridge) StderrLine: {'line': b'\n'}
+[1.388315] (ros1_bridge) StderrLine: {'line': b'  Add the installation prefix of "rmw" to CMAKE_PREFIX_PATH or set "rmw_DIR"\n'}
+[1.388519] (ros1_bridge) StderrLine: {'line': b'  to a directory containing one of the above files.  If "rmw" provides a\n'}
+[1.388700] (ros1_bridge) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[1.388879] (ros1_bridge) StderrLine: {'line': b'\n'}
+[1.389057] (ros1_bridge) StderrLine: {'line': b'\n'}
+[1.390197] (ros1_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.390402] (ros1_bridge) StdoutLine: {'line': b'See also "/home/rick/catkin_ws/src/build/ros1_bridge/CMakeFiles/CMakeOutput.log".\n'}
+[1.395518] (ros1_bridge) CommandEnded: {'returncode': 1}
+[1.396541] (ros1_bridge) JobEnded: {'rc': 1, 'identifier': 'ros1_bridge'}
+[1.408386] (-) EventReactorShutdown: {}

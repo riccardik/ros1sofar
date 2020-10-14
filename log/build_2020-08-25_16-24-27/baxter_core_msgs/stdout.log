@@ -1,0 +1,367 @@
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalIOStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_NavigatorState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_ListCameras
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogOutputCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AssemblyStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_URDFConfiguration
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorState
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalOutputCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_HeadState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CloseCamera
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_NavigatorStates
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CollisionAvoidanceState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_JointCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AssemblyState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorProperties
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_SolvePositionIK
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CameraControl
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogIOStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_SEAJointState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CameraSettings
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_HeadPanCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogIOState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndpointState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalIOState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_OpenCamera
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_RobustControllerStatus
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CollisionDetectionState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndpointStates
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 21%] Built target baxter_core_msgs_generate_messages_py
+[ 40%] Built target baxter_core_msgs_generate_messages_nodejs
+[ 60%] Built target baxter_core_msgs_generate_messages_cpp
+[ 79%] Built target baxter_core_msgs_generate_messages_lisp
+[100%] Built target baxter_core_msgs_generate_messages_eus
+[100%] Built target baxter_core_msgs_generate_messages
+Built target tests
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalIOStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_NavigatorState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogOutputCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_ListCameras
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_URDFConfiguration
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AssemblyStates
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalOutputCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_HeadState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_NavigatorStates
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CloseCamera
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CollisionAvoidanceState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_JointCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndEffectorProperties
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AssemblyState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_SolvePositionIK
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogIOStates
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CameraControl
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_SEAJointState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CameraSettings
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_HeadPanCommand
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_AnalogIOState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndpointState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_DigitalIOState
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_OpenCamera
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_RobustControllerStatus
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_CollisionDetectionState
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target _baxter_core_msgs_generate_messages_check_deps_EndpointStates
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[ 19%] Built target baxter_core_msgs_generate_messages_nodejs
+[ 40%] Built target baxter_core_msgs_generate_messages_py
+[ 60%] Built target baxter_core_msgs_generate_messages_lisp
+[ 79%] Built target baxter_core_msgs_generate_messages_cpp
+[100%] Built target baxter_core_msgs_generate_messages_eus
+[100%] Built target baxter_core_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogIOState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogIOStates.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/AnalogOutputCommand.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/AssemblyState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/AssemblyStates.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/CameraControl.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/CameraSettings.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/CollisionAvoidanceState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/CollisionDetectionState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalIOState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalIOStates.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/DigitalOutputCommand.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorCommand.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorProperties.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndEffectorState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndpointState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/EndpointStates.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/HeadPanCommand.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/HeadState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/JointCommand.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/NavigatorState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/NavigatorStates.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/RobustControllerStatus.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/SEAJointState.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/msg/URDFConfiguration.msg
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/srv/CloseCamera.srv
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/srv/ListCameras.srv
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/srv/OpenCamera.srv
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/srv/SolvePositionIK.srv
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs-msg-paths.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/AnalogIOState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/AnalogIOStates.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/AnalogOutputCommand.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/AssemblyState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/AssemblyStates.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/CameraControl.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/CameraSettings.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/CloseCamera.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/CloseCameraRequest.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/CloseCameraResponse.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/CollisionAvoidanceState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/CollisionDetectionState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/DigitalIOState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/DigitalIOStates.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/DigitalOutputCommand.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/EndEffectorCommand.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/EndEffectorProperties.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/EndEffectorState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/EndpointState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/EndpointStates.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/HeadPanCommand.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/HeadState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/JointCommand.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/ListCameras.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/ListCamerasRequest.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/ListCamerasResponse.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/NavigatorState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/NavigatorStates.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/OpenCamera.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/OpenCameraRequest.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/OpenCameraResponse.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/RobustControllerStatus.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/SEAJointState.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/SolvePositionIK.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/SolvePositionIKRequest.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/SolvePositionIKResponse.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/include/baxter_core_msgs/URDFConfiguration.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/manifest.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/AnalogIOState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/AnalogIOStates.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/AnalogOutputCommand.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/AssemblyState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/AssemblyStates.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/CameraControl.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/CameraSettings.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/CollisionAvoidanceState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/CollisionDetectionState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/DigitalIOState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/DigitalIOStates.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/DigitalOutputCommand.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/EndEffectorCommand.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/EndEffectorProperties.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/EndEffectorState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/EndpointState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/EndpointStates.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/HeadPanCommand.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/HeadState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/JointCommand.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/NavigatorState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/NavigatorStates.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/RobustControllerStatus.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/SEAJointState.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/msg/URDFConfiguration.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/srv/CloseCamera.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/srv/ListCameras.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/srv/OpenCamera.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/roseus/ros/baxter_core_msgs/srv/SolvePositionIK.l
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/AnalogIOState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/AnalogIOStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/AnalogOutputCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/AssemblyState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/AssemblyStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/CameraControl.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/CameraSettings.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/CollisionAvoidanceState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/CollisionDetectionState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/DigitalIOState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/DigitalIOStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/DigitalOutputCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/EndEffectorCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/EndEffectorProperties.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/EndEffectorState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/EndpointState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/EndpointStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/HeadPanCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/HeadState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/JointCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/NavigatorState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/NavigatorStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/RobustControllerStatus.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/SEAJointState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/URDFConfiguration.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_AnalogIOState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_AnalogIOStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_AnalogOutputCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_AssemblyState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_AssemblyStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_CameraControl.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_CameraSettings.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_CollisionAvoidanceState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_CollisionDetectionState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_DigitalIOState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_DigitalIOStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_DigitalOutputCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_EndEffectorCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_EndEffectorProperties.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_EndEffectorState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_EndpointState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_EndpointStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_HeadPanCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_HeadState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_JointCommand.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_NavigatorState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_NavigatorStates.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_RobustControllerStatus.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_SEAJointState.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/_package_URDFConfiguration.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/msg/baxter_core_msgs-msg.asd
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/CloseCamera.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/ListCameras.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/OpenCamera.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/SolvePositionIK.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/_package.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/_package_CloseCamera.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/_package_ListCameras.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/_package_OpenCamera.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/_package_SolvePositionIK.lisp
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/common-lisp/ros/baxter_core_msgs/srv/baxter_core_msgs-srv.asd
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/_index.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/AnalogIOState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/AnalogIOStates.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/AnalogOutputCommand.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/AssemblyState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/AssemblyStates.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/CameraControl.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/CameraSettings.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/CollisionAvoidanceState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/CollisionDetectionState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/DigitalIOState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/DigitalIOStates.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/DigitalOutputCommand.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/EndEffectorCommand.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/EndEffectorProperties.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/EndEffectorState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/EndpointState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/EndpointStates.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/HeadPanCommand.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/HeadState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/JointCommand.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/NavigatorState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/NavigatorStates.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/RobustControllerStatus.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/SEAJointState.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/URDFConfiguration.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/msg/_index.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/srv/CloseCamera.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/srv/ListCameras.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/srv/OpenCamera.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/srv/SolvePositionIK.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/gennodejs/ros/baxter_core_msgs/srv/_index.js
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/__init__.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/__init__.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogIOState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogIOState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogIOStates.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogIOStates.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogOutputCommand.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AnalogOutputCommand.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AssemblyState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AssemblyState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AssemblyStates.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_AssemblyStates.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CameraControl.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CameraControl.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CameraSettings.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CameraSettings.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CollisionAvoidanceState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CollisionAvoidanceState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CollisionDetectionState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_CollisionDetectionState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalIOState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalIOState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalIOStates.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalIOStates.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalOutputCommand.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_DigitalOutputCommand.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorCommand.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorCommand.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorProperties.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorProperties.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndEffectorState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndpointState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndpointState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndpointStates.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_EndpointStates.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_HeadPanCommand.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_HeadPanCommand.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_HeadState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_HeadState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_JointCommand.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_JointCommand.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_NavigatorState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_NavigatorState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_NavigatorStates.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_NavigatorStates.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_RobustControllerStatus.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_RobustControllerStatus.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_SEAJointState.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_SEAJointState.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_URDFConfiguration.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/_URDFConfiguration.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/__init__.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/msg/__init__.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/_CloseCamera.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/_CloseCamera.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/_ListCameras.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/_ListCameras.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/_OpenCamera.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/_OpenCamera.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/_SolvePositionIK.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/_SolvePositionIK.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/__init__.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages/baxter_core_msgs/srv/__init__.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig/baxter_core_msgs.pc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgs-msg-extras.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgsConfig.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/cmake/baxter_core_msgsConfig-version.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_core_msgs/share/baxter_core_msgs/package.xml
+Listing /home/rick/catkin_ws/src/build/baxter_core_msgs/devel/lib/python2.7/dist-packages/baxter_core_msgs ...
+Listing /home/rick/catkin_ws/src/build/baxter_core_msgs/devel/lib/python2.7/dist-packages/baxter_core_msgs/msg ...
+Listing /home/rick/catkin_ws/src/build/baxter_core_msgs/devel/lib/python2.7/dist-packages/baxter_core_msgs/srv ...

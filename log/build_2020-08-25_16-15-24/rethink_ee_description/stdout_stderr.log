@@ -1,0 +1,96 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/rick/catkin_ws/src/build/rethink_ee_description/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/rick/catkin_ws/src/build/rethink_ee_description/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rick/catkin_ws/src/build/rethink_ee_description
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/lib/pkgconfig/rethink_ee_description.pc
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig.cmake
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/cmake/rethink_ee_descriptionConfig-version.cmake
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/package.xml
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_base.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/electric_gripper_w_fingers.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_hard_tip.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/basic_soft_tip.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_narrow.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/extended_wide.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/half_round_tip.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/limiter.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/paddle_tip.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_narrow.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/electric_gripper/fingers/standard_wide.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/archive/pneumatic_gripper_30mm_cup.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_base.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.DAE
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/meshes/pneumatic_gripper/pneumatic_gripper_w_cup.STL
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/example_end_effector.urdf.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_hard_tip.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/basic_soft_tip.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_narrow.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/extended_wide.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/half_round_tip.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/none.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/paddle_tip.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_narrow.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/fingers/standard_wide.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/electric_gripper/rethink_electric_gripper.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/example_end_effector.urdf.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/null_gripper/null_gripper.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/example_end_effector.urdf.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/pneumatic_gripper_base.xacro
+-- Symlinking: /home/rick/catkin_ws/src/install/rethink_ee_description/share/rethink_ee_description/urdf/pneumatic_gripper/rethink_pneumatic_gripper.xacro

@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/rick/catkin_ws/src/build/baxter_tools/devel
+-- Using CMAKE_PREFIX_PATH: /home/rick/catkin_ws/src/install/baxter_interface;/home/rick/catkin_ws/src/install/baxter_maintenance_msgs;/home/rick/catkin_ws/src/install/baxter_core_msgs;/opt/ros/kinetic
+-- This workspace overlays: /home/rick/catkin_ws/src/install/baxter_interface;/home/rick/catkin_ws/src/install/baxter_maintenance_msgs;/home/rick/catkin_ws/src/install/baxter_core_msgs;/opt/ros/kinetic
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/rick/catkin_ws/src/build/baxter_tools/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rick/catkin_ws/src/build/baxter_tools
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_tools/lib/pkgconfig/baxter_tools.pc
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/cmake/baxter_toolsConfig.cmake
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/cmake/baxter_toolsConfig-version.cmake
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/package.xml
++ cd /home/rick/catkin_ws/src/baxter_tools
++ mkdir -p /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/build/baxter_tools/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/rick/catkin_ws/src/build/baxter_tools /usr/bin/python2 /home/rick/catkin_ws/src/baxter_tools/setup.py build --build-base /home/rick/catkin_ws/src/build/baxter_tools install --install-layout=deb --prefix=/home/rick/catkin_ws/src/install/baxter_tools --install-scripts=/home/rick/catkin_ws/src/install/baxter_tools/bin
+running build
+running build_py
+creating /home/rick/catkin_ws/src/build/baxter_tools/lib.linux-x86_64-2.7
+creating /home/rick/catkin_ws/src/build/baxter_tools/lib.linux-x86_64-2.7/baxter_tools
+copying src/baxter_tools/smoketests.py -> /home/rick/catkin_ws/src/build/baxter_tools/lib.linux-x86_64-2.7/baxter_tools
+copying src/baxter_tools/__init__.py -> /home/rick/catkin_ws/src/build/baxter_tools/lib.linux-x86_64-2.7/baxter_tools
+running install
+running install_lib
+creating /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages/baxter_tools
+copying /home/rick/catkin_ws/src/build/baxter_tools/lib.linux-x86_64-2.7/baxter_tools/smoketests.py -> /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages/baxter_tools
+copying /home/rick/catkin_ws/src/build/baxter_tools/lib.linux-x86_64-2.7/baxter_tools/__init__.py -> /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages/baxter_tools
+byte-compiling /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages/baxter_tools/smoketests.py to smoketests.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages/baxter_tools/__init__.py to __init__.pyc
+running install_egg_info
+Writing /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages/baxter_tools-1.2.0.egg-info
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/tare.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/smoke_test.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/tuck_arms.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/camera_control.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/calibrate_arm.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/enable_robot.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/update_robot.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/share
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/share/images
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/share/images/researchsdk.png
+-- Installing: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/share/images/baxterworking.png

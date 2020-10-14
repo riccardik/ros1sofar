@@ -1,0 +1,222 @@
+[0.026s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_maintenance_msgs': /usr/bin/cmake /home/rick/catkin_ws/src/baxter_common/baxter_maintenance_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rick/catkin_ws/src/install/baxter_maintenance_msgs
+[0.144s] -- The C compiler identification is GNU 5.4.0
+[0.292s] -- The CXX compiler identification is GNU 5.4.0
+[0.297s] -- Check for working C compiler: /usr/bin/cc
+[0.408s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.409s] -- Detecting C compiler ABI info
+[0.511s] -- Detecting C compiler ABI info - done
+[0.523s] -- Detecting C compile features
+[0.862s] -- Detecting C compile features - done
+[0.869s] -- Check for working CXX compiler: /usr/bin/c++
+[0.994s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.994s] -- Detecting CXX compiler ABI info
+[1.141s] -- Detecting CXX compiler ABI info - done
+[1.177s] -- Detecting CXX compile features
+[1.681s] -- Detecting CXX compile features - done
+[1.692s] -- Using CATKIN_DEVEL_PREFIX: /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel
+[1.693s] -- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+[1.693s] -- This workspace overlays: /opt/ros/kinetic
+[1.705s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.736s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+[1.736s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.737s] -- Using Debian Python package layout
+[1.737s] -- Using empy: /usr/bin/empy
+[2.068s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.068s] -- Call enable_testing()
+[2.085s] -- Using CATKIN_TEST_RESULTS_DIR: /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/test_results
+[2.157s] -- Found gtest sources under '/usr/src/gmock': gtests will be built
+[2.157s] -- Found gmock sources under '/usr/src/gmock': gmock will be built
+[2.170s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+[2.174s] -- Looking for pthread.h
+[2.410s] -- Looking for pthread.h - found
+[2.410s] -- Looking for pthread_create
+[2.570s] -- Looking for pthread_create - not found
+[2.570s] -- Looking for pthread_create in pthreads
+[2.704s] -- Looking for pthread_create in pthreads - not found
+[2.704s] -- Looking for pthread_create in pthread
+[2.930s] -- Looking for pthread_create in pthread - found
+[2.930s] -- Found Threads: TRUE  
+[2.943s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.060s] -- catkin 0.7.20
+[3.060s] -- BUILD_SHARED_LIBS is on
+[3.320s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[3.866s] -- baxter_maintenance_msgs: 7 messages, 0 services
+[4.128s] -- Configuring done
+[4.151s] -- Generating done
+[4.190s] -- Build files have been written to: /home/rick/catkin_ws/src/build/baxter_maintenance_msgs
+[4.199s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_maintenance_msgs' returned '0': /usr/bin/cmake /home/rick/catkin_ws/src/baxter_common/baxter_maintenance_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rick/catkin_ws/src/install/baxter_maintenance_msgs
+[4.203s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_maintenance_msgs': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_maintenance_msgs -- -j2 -l2
+[4.300s] [35m[1mScanning dependencies of target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateSource[0m
+[4.304s] [35m[1mScanning dependencies of target _baxter_maintenance_msgs_generate_messages_check_deps_TareEnable[0m
+[4.384s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateSource
+[4.397s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[4.405s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_TareEnable
+[4.413s] [35m[1mScanning dependencies of target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateSources[0m
+[4.419s] [  0%] Built target std_msgs_generate_messages_py
+[4.433s] [35m[1mScanning dependencies of target _baxter_maintenance_msgs_generate_messages_check_deps_CalibrateArmData[0m
+[4.509s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateSources
+[4.531s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_CalibrateArmData
+[4.551s] [35m[1mScanning dependencies of target _baxter_maintenance_msgs_generate_messages_check_deps_TareData[0m
+[4.564s] [35m[1mScanning dependencies of target _baxter_maintenance_msgs_generate_messages_check_deps_CalibrateArmEnable[0m
+[4.674s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_TareData
+[4.681s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_CalibrateArmEnable
+[4.689s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[4.703s] [35m[1mScanning dependencies of target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateStatus[0m
+[4.712s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.748s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateStatus
+[4.752s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[4.757s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[4.767s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.775s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.787s] [  0%] Built target std_msgs_generate_messages_eus
+[4.797s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.809s] [35m[1mScanning dependencies of target baxter_maintenance_msgs_generate_messages_nodejs[0m
+[4.833s] [  2%] [34m[1mGenerating Javascript code from baxter_maintenance_msgs/CalibrateArmEnable.msg[0m
+[4.833s] [35m[1mScanning dependencies of target baxter_maintenance_msgs_generate_messages_py[0m
+[4.846s] [  5%] [34m[1mGenerating Python from MSG baxter_maintenance_msgs/CalibrateArmEnable[0m
+[5.004s] [  8%] [34m[1mGenerating Python from MSG baxter_maintenance_msgs/UpdateStatus[0m
+[5.044s] [ 10%] [34m[1mGenerating Javascript code from baxter_maintenance_msgs/UpdateStatus.msg[0m
+[5.220s] [ 13%] [34m[1mGenerating Javascript code from baxter_maintenance_msgs/UpdateSources.msg[0m
+[5.314s] [ 16%] [34m[1mGenerating Python from MSG baxter_maintenance_msgs/UpdateSources[0m
+[5.382s] [ 18%] [34m[1mGenerating Javascript code from baxter_maintenance_msgs/UpdateSource.msg[0m
+[5.496s] [ 21%] [34m[1mGenerating Javascript code from baxter_maintenance_msgs/TareData.msg[0m
+[5.544s] [ 24%] [34m[1mGenerating Python from MSG baxter_maintenance_msgs/UpdateSource[0m
+[5.564s] [ 27%] [34m[1mGenerating Javascript code from baxter_maintenance_msgs/CalibrateArmData.msg[0m
+[5.748s] [ 29%] [34m[1mGenerating Javascript code from baxter_maintenance_msgs/TareEnable.msg[0m
+[5.825s] [ 32%] [34m[1mGenerating Python from MSG baxter_maintenance_msgs/TareData[0m
+[5.879s] [ 32%] Built target baxter_maintenance_msgs_generate_messages_nodejs
+[5.909s] [35m[1mScanning dependencies of target baxter_maintenance_msgs_generate_messages_lisp[0m
+[5.980s] [ 35%] [34m[1mGenerating Lisp code from baxter_maintenance_msgs/CalibrateArmEnable.msg[0m
+[6.053s] [ 37%] [34m[1mGenerating Python from MSG baxter_maintenance_msgs/CalibrateArmData[0m
+[6.149s] [ 40%] [34m[1mGenerating Lisp code from baxter_maintenance_msgs/UpdateStatus.msg[0m
+[6.267s] [ 43%] [34m[1mGenerating Lisp code from baxter_maintenance_msgs/UpdateSources.msg[0m
+[6.382s] [ 45%] [34m[1mGenerating Lisp code from baxter_maintenance_msgs/UpdateSource.msg[0m
+[6.412s] [ 48%] [34m[1mGenerating Python from MSG baxter_maintenance_msgs/TareEnable[0m
+[6.575s] [ 51%] [34m[1mGenerating Lisp code from baxter_maintenance_msgs/TareData.msg[0m
+[6.636s] [ 54%] [34m[1mGenerating Lisp code from baxter_maintenance_msgs/CalibrateArmData.msg[0m
+[6.714s] [ 56%] [34m[1mGenerating Python msg __init__.py for baxter_maintenance_msgs[0m
+[6.728s] [ 59%] [34m[1mGenerating Lisp code from baxter_maintenance_msgs/TareEnable.msg[0m
+[6.813s] [ 59%] Built target baxter_maintenance_msgs_generate_messages_lisp
+[6.866s] [35m[1mScanning dependencies of target baxter_maintenance_msgs_generate_messages_cpp[0m
+[6.907s] [ 62%] [34m[1mGenerating C++ code from baxter_maintenance_msgs/CalibrateArmEnable.msg[0m
+[6.915s] [ 62%] Built target baxter_maintenance_msgs_generate_messages_py
+[6.966s] [35m[1mScanning dependencies of target baxter_maintenance_msgs_generate_messages_eus[0m
+[7.006s] [ 64%] [34m[1mGenerating EusLisp code from baxter_maintenance_msgs/CalibrateArmEnable.msg[0m
+[7.169s] [ 67%] [34m[1mGenerating C++ code from baxter_maintenance_msgs/UpdateStatus.msg[0m
+[7.238s] [ 70%] [34m[1mGenerating EusLisp code from baxter_maintenance_msgs/UpdateStatus.msg[0m
+[7.435s] [ 72%] [34m[1mGenerating EusLisp code from baxter_maintenance_msgs/UpdateSources.msg[0m
+[7.486s] [ 75%] [34m[1mGenerating C++ code from baxter_maintenance_msgs/UpdateSources.msg[0m
+[7.562s] [ 78%] [34m[1mGenerating EusLisp code from baxter_maintenance_msgs/UpdateSource.msg[0m
+[7.726s] [ 81%] [34m[1mGenerating EusLisp code from baxter_maintenance_msgs/TareData.msg[0m
+[7.779s] [ 83%] [34m[1mGenerating C++ code from baxter_maintenance_msgs/UpdateSource.msg[0m
+[7.807s] [ 86%] [34m[1mGenerating EusLisp code from baxter_maintenance_msgs/CalibrateArmData.msg[0m
+[7.959s] [ 89%] [34m[1mGenerating EusLisp code from baxter_maintenance_msgs/TareEnable.msg[0m
+[8.096s] [ 91%] [34m[1mGenerating EusLisp manifest code for baxter_maintenance_msgs[0m
+[8.159s] [ 94%] [34m[1mGenerating C++ code from baxter_maintenance_msgs/TareData.msg[0m
+[8.840s] [ 97%] [34m[1mGenerating C++ code from baxter_maintenance_msgs/CalibrateArmData.msg[0m
+[9.184s] [100%] [34m[1mGenerating C++ code from baxter_maintenance_msgs/TareEnable.msg[0m
+[9.443s] [100%] Built target baxter_maintenance_msgs_generate_messages_cpp
+[10.096s] [100%] Built target baxter_maintenance_msgs_generate_messages_eus
+[10.122s] [35m[1mScanning dependencies of target baxter_maintenance_msgs_generate_messages[0m
+[10.178s] [100%] Built target baxter_maintenance_msgs_generate_messages
+[10.190s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_maintenance_msgs' returned '0': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_maintenance_msgs -- -j2 -l2
+[10.355s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_maintenance_msgs': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_maintenance_msgs --target tests -- -j2 -l2
+[10.477s] [35m[1mScanning dependencies of target tests[0m
+[10.485s] Built target tests
+[10.495s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_maintenance_msgs' returned '0': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_maintenance_msgs --target tests -- -j2 -l2
+[10.643s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_maintenance_msgs': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_maintenance_msgs --target install -- -j2 -l2
+[10.807s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_TareEnable
+[10.856s] [  0%] Built target std_msgs_generate_messages_py
+[10.878s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateSource
+[10.944s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateSources
+[11.023s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_CalibrateArmData
+[11.108s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_TareData
+[11.162s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_CalibrateArmEnable
+[11.242s] [  0%] Built target _baxter_maintenance_msgs_generate_messages_check_deps_UpdateStatus
+[11.249s] [  0%] Built target std_msgs_generate_messages_nodejs
+[11.302s] [  0%] Built target std_msgs_generate_messages_cpp
+[11.322s] [  0%] Built target std_msgs_generate_messages_lisp
+[11.389s] [  0%] Built target std_msgs_generate_messages_eus
+[11.401s] [ 21%] Built target baxter_maintenance_msgs_generate_messages_py
+[11.417s] [ 40%] Built target baxter_maintenance_msgs_generate_messages_nodejs
+[11.488s] [ 59%] Built target baxter_maintenance_msgs_generate_messages_lisp
+[11.495s] [ 78%] Built target baxter_maintenance_msgs_generate_messages_cpp
+[11.550s] [100%] Built target baxter_maintenance_msgs_generate_messages_eus
+[11.574s] [100%] Built target baxter_maintenance_msgs_generate_messages
+[11.607s] [36mInstall the project...[0m
+[11.641s] -- Install configuration: ""
+[11.642s] -- Execute custom install script
+[11.643s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/msg/CalibrateArmData.msg
+[11.680s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/msg/CalibrateArmEnable.msg
+[11.696s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/msg/TareData.msg
+[11.703s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/msg/TareEnable.msg
+[11.710s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/msg/UpdateSource.msg
+[11.732s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/msg/UpdateSources.msg
+[11.751s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/msg/UpdateStatus.msg
+[11.759s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/cmake/baxter_maintenance_msgs-msg-paths.cmake
+[11.768s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/include/baxter_maintenance_msgs/CalibrateArmData.h
+[11.777s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/include/baxter_maintenance_msgs/CalibrateArmEnable.h
+[11.790s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/include/baxter_maintenance_msgs/TareData.h
+[11.802s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/include/baxter_maintenance_msgs/TareEnable.h
+[11.811s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/include/baxter_maintenance_msgs/UpdateSource.h
+[11.818s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/include/baxter_maintenance_msgs/UpdateSources.h
+[11.831s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/include/baxter_maintenance_msgs/UpdateStatus.h
+[11.852s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/roseus/ros/baxter_maintenance_msgs/manifest.l
+[11.862s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/roseus/ros/baxter_maintenance_msgs/msg/CalibrateArmData.l
+[11.870s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/roseus/ros/baxter_maintenance_msgs/msg/CalibrateArmEnable.l
+[11.878s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/roseus/ros/baxter_maintenance_msgs/msg/TareData.l
+[11.885s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/roseus/ros/baxter_maintenance_msgs/msg/TareEnable.l
+[11.897s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/roseus/ros/baxter_maintenance_msgs/msg/UpdateSource.l
+[11.907s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/roseus/ros/baxter_maintenance_msgs/msg/UpdateSources.l
+[11.915s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/roseus/ros/baxter_maintenance_msgs/msg/UpdateStatus.l
+[11.926s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/CalibrateArmData.lisp
+[11.933s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/CalibrateArmEnable.lisp
+[11.954s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/TareData.lisp
+[11.977s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/TareEnable.lisp
+[11.992s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/UpdateSource.lisp
+[12.022s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/UpdateSources.lisp
+[12.059s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/UpdateStatus.lisp
+[12.085s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package.lisp
+[12.094s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package_CalibrateArmData.lisp
+[12.103s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package_CalibrateArmEnable.lisp
+[12.127s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package_TareData.lisp
+[12.163s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package_TareEnable.lisp
+[12.171s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package_UpdateSource.lisp
+[12.198s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package_UpdateSources.lisp
+[12.229s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/_package_UpdateStatus.lisp
+[12.241s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/common-lisp/ros/baxter_maintenance_msgs/msg/baxter_maintenance_msgs-msg.asd
+[12.259s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/_index.js
+[12.268s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/CalibrateArmData.js
+[12.279s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/CalibrateArmEnable.js
+[12.291s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/TareData.js
+[12.298s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/TareEnable.js
+[12.308s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/UpdateSource.js
+[12.322s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/UpdateSources.js
+[12.345s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/UpdateStatus.js
+[12.351s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/gennodejs/ros/baxter_maintenance_msgs/msg/_index.js
+[12.375s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/__init__.py
+[12.394s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_CalibrateArmData.py
+[12.413s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_CalibrateArmEnable.py
+[12.426s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_TareData.py
+[12.435s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_TareEnable.py
+[12.453s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_UpdateSource.py
+[12.469s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_UpdateSources.py
+[12.496s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_UpdateStatus.py
+[12.518s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/__init__.py
+[12.556s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/pkgconfig/baxter_maintenance_msgs.pc
+[12.563s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/cmake/baxter_maintenance_msgs-msg-extras.cmake
+[12.576s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/cmake/baxter_maintenance_msgsConfig.cmake
+[12.598s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/cmake/baxter_maintenance_msgsConfig-version.cmake
+[12.625s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_maintenance_msgs/share/baxter_maintenance_msgs/package.xml
+[12.684s] Listing /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs ...
+[12.684s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/__init__.py ...
+[12.684s] Listing /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg ...
+[12.685s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_CalibrateArmData.py ...
+[12.685s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_CalibrateArmEnable.py ...
+[12.685s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_TareData.py ...
+[12.685s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_TareEnable.py ...
+[12.685s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_UpdateSource.py ...
+[12.686s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_UpdateSources.py ...
+[12.686s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/_UpdateStatus.py ...
+[12.686s] Compiling /home/rick/catkin_ws/src/build/baxter_maintenance_msgs/devel/lib/python2.7/dist-packages/baxter_maintenance_msgs/msg/__init__.py ...
+[12.705s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_maintenance_msgs' returned '0': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_maintenance_msgs --target install -- -j2 -l2

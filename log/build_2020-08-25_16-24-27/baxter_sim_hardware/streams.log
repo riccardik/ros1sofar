@@ -1,0 +1,157 @@
+[0.069s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_hardware': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics:/home/rick/catkin_ws/src/install/baxter_sim_io:/home/rick/catkin_ws/src/install/baxter_sim_controllers:/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/share:/home/rick/catkin_ws/src/install/baxter_sim_io/share:/home/rick/catkin_ws/src/install/baxter_sim_controllers/share:/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_hardware -- -j2 -l2
+[0.134s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.141s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[0.175s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.187s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.205s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.216s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.227s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.234s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.252s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.255s] [  0%] Built target actionlib_generate_messages_py
+[0.284s] [  0%] Built target actionlib_generate_messages_lisp
+[0.293s] [  0%] Built target tf_generate_messages_py
+[0.301s] [  0%] Built target tf_generate_messages_eus
+[0.317s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.330s] [  0%] Built target tf_generate_messages_nodejs
+[0.343s] [  0%] Built target roscpp_generate_messages_py
+[0.352s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.361s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.367s] [  0%] Built target tf_generate_messages_lisp
+[0.382s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.387s] [  0%] Built target std_srvs_generate_messages_nodejs
+[0.402s] [  0%] Built target std_srvs_generate_messages_cpp
+[0.422s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.427s] [  0%] Built target roscpp_generate_messages_eus
+[0.446s] [  0%] Built target std_srvs_generate_messages_eus
+[0.450s] [  0%] Built target tf_generate_messages_cpp
+[0.468s] [  0%] Built target baxter_core_msgs_generate_messages_eus
+[0.473s] [  0%] Built target trajectory_msgs_generate_messages_py
+[0.500s] [  0%] Built target roscpp_generate_messages_lisp
+[0.500s] [  0%] Built target std_srvs_generate_messages_py
+[0.520s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.525s] [  0%] Built target std_msgs_generate_messages_eus
+[0.541s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[0.550s] [  0%] Built target std_msgs_generate_messages_py
+[0.563s] [  0%] Built target actionlib_generate_messages_eus
+[0.588s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.588s] [  0%] Built target baxter_core_msgs_generate_messages_cpp
+[0.614s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.615s] [  0%] Built target baxter_core_msgs_generate_messages_lisp
+[0.639s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.641s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.659s] [  0%] Built target roscpp_generate_messages_cpp
+[0.663s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.696s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.700s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.714s] [  0%] Built target std_srvs_generate_messages_lisp
+[0.720s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.736s] [  0%] Built target baxter_core_msgs_generate_messages_nodejs
+[0.750s] [  0%] Built target actionlib_generate_messages_cpp
+[0.758s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.768s] [  0%] Built target baxter_core_msgs_generate_messages_py
+[0.787s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.808s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.813s] [  0%] Built target gazebo_msgs_generate_messages_eus
+[0.832s] [  0%] Built target gazebo_msgs_generate_messages_py
+[0.836s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.851s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.858s] [  0%] Built target gazebo_msgs_generate_messages_lisp
+[0.875s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.877s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.910s] [  0%] Built target gazebo_msgs_generate_messages_nodejs
+[0.921s] [  0%] Built target gazebo_msgs_generate_messages_cpp
+[0.942s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.944s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[0.965s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[1.031s] [100%] Built target baxter_emulator
+[1.047s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_hardware' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics:/home/rick/catkin_ws/src/install/baxter_sim_io:/home/rick/catkin_ws/src/install/baxter_sim_controllers:/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/share:/home/rick/catkin_ws/src/install/baxter_sim_io/share:/home/rick/catkin_ws/src/install/baxter_sim_controllers/share:/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_hardware -- -j2 -l2
+[1.150s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_hardware': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics:/home/rick/catkin_ws/src/install/baxter_sim_io:/home/rick/catkin_ws/src/install/baxter_sim_controllers:/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/share:/home/rick/catkin_ws/src/install/baxter_sim_io/share:/home/rick/catkin_ws/src/install/baxter_sim_controllers/share:/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_hardware --target tests -- -j2 -l2
+[1.263s] Built target tests
+[1.276s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_hardware' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics:/home/rick/catkin_ws/src/install/baxter_sim_io:/home/rick/catkin_ws/src/install/baxter_sim_controllers:/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/share:/home/rick/catkin_ws/src/install/baxter_sim_io/share:/home/rick/catkin_ws/src/install/baxter_sim_controllers/share:/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_hardware --target tests -- -j2 -l2
+[1.409s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_hardware': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics:/home/rick/catkin_ws/src/install/baxter_sim_io:/home/rick/catkin_ws/src/install/baxter_sim_controllers:/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/share:/home/rick/catkin_ws/src/install/baxter_sim_io/share:/home/rick/catkin_ws/src/install/baxter_sim_controllers/share:/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_hardware --target install -- -j2 -l2
+[1.464s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[1.473s] [  0%] Built target trajectory_msgs_generate_messages_nodejs
+[1.478s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[1.499s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.510s] [  0%] Built target tf2_msgs_generate_messages_eus
+[1.536s] [  0%] Built target tf2_msgs_generate_messages_py
+[1.549s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.570s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.576s] [  0%] Built target actionlib_generate_messages_py
+[1.595s] [  0%] Built target actionlib_generate_messages_lisp
+[1.601s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.621s] [  0%] Built target tf_generate_messages_eus
+[1.630s] [  0%] Built target tf_generate_messages_py
+[1.642s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.656s] [  0%] Built target tf_generate_messages_nodejs
+[1.663s] [  0%] Built target roscpp_generate_messages_py
+[1.681s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.698s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.704s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.723s] [  0%] Built target tf_generate_messages_lisp
+[1.731s] [  0%] Built target std_srvs_generate_messages_nodejs
+[1.751s] [  0%] Built target std_srvs_generate_messages_cpp
+[1.759s] [  0%] Built target roscpp_generate_messages_eus
+[1.775s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.779s] [  0%] Built target tf_generate_messages_cpp
+[1.795s] [  0%] Built target baxter_core_msgs_generate_messages_eus
+[1.810s] [  0%] Built target trajectory_msgs_generate_messages_py
+[1.821s] [  0%] Built target std_srvs_generate_messages_eus
+[1.831s] [  0%] Built target roscpp_generate_messages_lisp
+[1.845s] [  0%] Built target std_srvs_generate_messages_py
+[1.846s] [  0%] Built target std_msgs_generate_messages_eus
+[1.861s] [  0%] Built target trajectory_msgs_generate_messages_eus
+[1.870s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.886s] [  0%] Built target std_msgs_generate_messages_py
+[1.904s] [  0%] Built target actionlib_generate_messages_eus
+[1.924s] [  0%] Built target baxter_core_msgs_generate_messages_cpp
+[1.930s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[1.940s] [  0%] Built target baxter_core_msgs_generate_messages_lisp
+[1.951s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.965s] [  0%] Built target actionlib_generate_messages_nodejs
+[1.966s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.981s] [  0%] Built target roscpp_generate_messages_cpp
+[2.001s] [  0%] Built target sensor_msgs_generate_messages_eus
+[2.001s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.021s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.023s] [  0%] Built target std_srvs_generate_messages_lisp
+[2.049s] [  0%] Built target baxter_core_msgs_generate_messages_nodejs
+[2.050s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.073s] [  0%] Built target actionlib_generate_messages_cpp
+[2.079s] [  0%] Built target sensor_msgs_generate_messages_py
+[2.109s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.120s] [  0%] Built target baxter_core_msgs_generate_messages_py
+[2.136s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.156s] [  0%] Built target gazebo_msgs_generate_messages_py
+[2.158s] [  0%] Built target gazebo_msgs_generate_messages_eus
+[2.186s] [  0%] Built target gazebo_msgs_generate_messages_lisp
+[2.187s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[2.210s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.222s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[2.243s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.250s] [  0%] Built target gazebo_msgs_generate_messages_nodejs
+[2.266s] [  0%] Built target gazebo_msgs_generate_messages_cpp
+[2.285s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.287s] [  0%] Built target trajectory_msgs_generate_messages_cpp
+[2.324s] [  0%] Built target trajectory_msgs_generate_messages_lisp
+[2.362s] [100%] Built target baxter_emulator
+[2.400s] [36mInstall the project...[0m
+[2.416s] -- Install configuration: ""
+[2.417s] -- Execute custom install script
+[2.418s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/lib/pkgconfig/baxter_sim_hardware.pc
+[2.419s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/cmake/baxter_sim_hardwareConfig.cmake
+[2.420s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/cmake/baxter_sim_hardwareConfig-version.cmake
+[2.420s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/package.xml
+[2.421s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/lib/baxter_sim_hardware/baxter_emulator
+[2.421s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/config/baxter_left_electric_gripper_controller.yaml
+[2.422s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/config/baxter_right_electric_gripper_controller.yaml
+[2.422s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/config/baxter_sim_controllers.yaml
+[2.422s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/images/researchsdk.png
+[2.423s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/include/baxter_sim_hardware/baxter_emulator.h
+[2.423s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/launch/baxter_sdk_control.launch
+[2.423s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/launch/baxter_sdk_position_rqt.launch
+[2.423s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/launch/baxter_sdk_position_rqt.perspective
+[2.424s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/launch/baxter_sdk_velocity_rqt.launch
+[2.424s] -- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_hardware/share/baxter_sim_hardware/launch/baxter_sdk_velocity_rqt.perspective
+[2.436s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_hardware' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics:/home/rick/catkin_ws/src/install/baxter_sim_io:/home/rick/catkin_ws/src/install/baxter_sim_controllers:/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_io/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_sim_controllers/lib/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_sim_kinematics/share:/home/rick/catkin_ws/src/install/baxter_sim_io/share:/home/rick/catkin_ws/src/install/baxter_sim_controllers/share:/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_hardware --target install -- -j2 -l2

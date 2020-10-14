@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/rick/catkin_ws/src/build/baxter_sim_io/devel
+-- Using CMAKE_PREFIX_PATH: /home/rick/catkin_ws/src/install/baxter_core_msgs;/opt/ros/kinetic
+-- This workspace overlays: /home/rick/catkin_ws/src/install/baxter_core_msgs;/opt/ros/kinetic
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/rick/catkin_ws/src/build/baxter_sim_io/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- /usr/include/x86_64-linux-gnu/qt5//usr/include/x86_64-linux-gnu/qt5/QtWidgets/usr/include/x86_64-linux-gnu/qt5/QtGui/usr/include/x86_64-linux-gnu/qt5/QtCore/usr/lib/x86_64-linux-gnu/qt5//mkspecs/linux-g++-64/usr/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rick/catkin_ws/src/build/baxter_sim_io
+[35m[1mScanning dependencies of target baxter_sim_io_automoc[0m
+[  7%] [34m[1mAutomatic moc for target baxter_sim_io[0m
+[  7%] Built target baxter_sim_io_automoc
+[ 15%] [34m[1mGenerating include/baxter_sim_io/moc_qnode.cpp[0m
+[ 23%] [34m[1mGenerating qrc_sim_io.cpp[0m
+[ 30%] [34m[1mGenerating ui_baxter_io.h[0m
+[ 38%] [34m[1mGenerating include/baxter_sim_io/moc_baxter_io.cpp[0m
+[35m[1mScanning dependencies of target baxter_sim_io[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/src/main.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/src/baxter_io.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/src/qnode.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/qrc_sim_io.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/include/baxter_sim_io/moc_baxter_io.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/include/baxter_sim_io/moc_qnode.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/baxter_sim_io_automoc.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/baxter_sim_io/baxter_sim_io[0m
+[100%] Built target baxter_sim_io
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  7%] [34m[1mAutomatic moc for target baxter_sim_io[0m
+[  7%] Built target baxter_sim_io_automoc
+[100%] Built target baxter_sim_io
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/lib/pkgconfig/baxter_sim_io.pc
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/cmake/baxter_sim_ioConfig.cmake
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/cmake/baxter_sim_ioConfig-version.cmake
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/package.xml
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/lib/baxter_sim_io/baxter_sim_io
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/include/baxter_sim_io/baxter_io.hpp
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/include/baxter_sim_io/qnode.hpp
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/arm.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_grasp_p.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_grasp_r.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_ok_p.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_ok_r.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_squeeze_p.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_squeeze_r.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/left.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/logo.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_cancel_p.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_cancel_r.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_ok_p.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_ok_r.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_show_p.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_show_r.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/right.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/robot_arm.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/sim_io.qrc
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/torso.png
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/ui/baxter_io.ui

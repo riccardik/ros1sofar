@@ -1,0 +1,6 @@
+Invoking command in '/home/rick/catkin_ws/src/build/rethink_ee_description': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/rethink_ee_description -- -j2 -l2
+Invoked command in '/home/rick/catkin_ws/src/build/rethink_ee_description' returned '0': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/rethink_ee_description -- -j2 -l2
+Invoking command in '/home/rick/catkin_ws/src/build/rethink_ee_description': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/rethink_ee_description --target tests -- -j2 -l2
+Invoked command in '/home/rick/catkin_ws/src/build/rethink_ee_description' returned '0': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/rethink_ee_description --target tests -- -j2 -l2
+Invoking command in '/home/rick/catkin_ws/src/build/rethink_ee_description': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/rethink_ee_description --target install -- -j2 -l2
+Invoked command in '/home/rick/catkin_ws/src/build/rethink_ee_description' returned '0': /usr/bin/cmake --build /home/rick/catkin_ws/src/build/rethink_ee_description --target install -- -j2 -l2

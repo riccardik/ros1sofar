@@ -1,0 +1,30 @@
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_tools/lib/pkgconfig/baxter_tools.pc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/cmake/baxter_toolsConfig.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/cmake/baxter_toolsConfig-version.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/package.xml
++ cd /home/rick/catkin_ws/src/baxter_tools
++ mkdir -p /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/build/baxter_tools/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_maintenance_msgs/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/rick/catkin_ws/src/build/baxter_tools /usr/bin/python2 /home/rick/catkin_ws/src/baxter_tools/setup.py build --build-base /home/rick/catkin_ws/src/build/baxter_tools install --install-layout=deb --prefix=/home/rick/catkin_ws/src/install/baxter_tools --install-scripts=/home/rick/catkin_ws/src/install/baxter_tools/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages/baxter_tools-1.2.0.egg-info
+Writing /home/rick/catkin_ws/src/install/baxter_tools/lib/python2.7/dist-packages/baxter_tools-1.2.0.egg-info
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/tare.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/smoke_test.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/tuck_arms.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/camera_control.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/calibrate_arm.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/enable_robot.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/lib/baxter_tools/update_robot.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/share
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/share/images
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/share/images/researchsdk.png
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_tools/share/baxter_tools/share/images/baxterworking.png

@@ -1,0 +1,147 @@
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target gazebo_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target baxter_core_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target baxter_core_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target baxter_core_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target baxter_core_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target baxter_core_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target gazebo_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target gazebo_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+[ 50%] Built target baxter_sim_kinematics
+[100%] Built target kinematics
+Built target tests
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_eus
+[  0%] Built target gazebo_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target baxter_core_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target baxter_core_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target baxter_core_msgs_generate_messages_cpp
+[  0%] Built target baxter_core_msgs_generate_messages_nodejs
+[  0%] Built target baxter_core_msgs_generate_messages_py
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_nodejs
+[  0%] Built target gazebo_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target gazebo_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+[ 50%] Built target baxter_sim_kinematics
+[100%] Built target kinematics
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/pkgconfig/baxter_sim_kinematics.pc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/share/baxter_sim_kinematics/cmake/baxter_sim_kinematicsConfig.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/share/baxter_sim_kinematics/cmake/baxter_sim_kinematicsConfig-version.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/share/baxter_sim_kinematics/package.xml
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/libbaxter_sim_kinematics.so
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/lib/baxter_sim_kinematics/kinematics
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/share/baxter_sim_kinematics/launch/baxter_sim_kinematics.launch
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/include/baxter_sim_kinematics/arm_kinematics.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_sim_kinematics/include/baxter_sim_kinematics/position_kinematics.h

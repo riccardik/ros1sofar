@@ -1,0 +1,60 @@
+[  0%] Built target baxter_examples_xacro_generated_to_devel_space_
+[100%] Built target baxter_examples_gencfg
+Built target tests
+[  0%] Built target baxter_examples_xacro_generated_to_devel_space_
+[100%] Built target baxter_examples_gencfg
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_examples/include/baxter_examples/JointSpringsExampleConfig.h
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_examples/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_examples/lib/python2.7/dist-packages/baxter_examples/cfg/JointSpringsExampleConfig.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_examples/lib/python2.7/dist-packages/baxter_examples/cfg/__init__.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_examples/lib/python2.7/dist-packages/baxter_examples/cfg/__init__.pyc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_examples/lib/pkgconfig/baxter_examples.pc
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/cmake/baxter_examplesConfig.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/cmake/baxter_examplesConfig-version.cmake
+-- Up-to-date symlink: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/package.xml
++ cd /home/rick/catkin_ws/src/baxter_examples
++ mkdir -p /home/rick/catkin_ws/src/install/baxter_examples/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_examples/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/build/baxter_examples/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/rick/catkin_ws/src/build/baxter_examples /usr/bin/python2 /home/rick/catkin_ws/src/baxter_examples/setup.py build --build-base /home/rick/catkin_ws/src/build/baxter_examples install --install-layout=deb --prefix=/home/rick/catkin_ws/src/install/baxter_examples --install-scripts=/home/rick/catkin_ws/src/install/baxter_examples/bin
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+Removing /home/rick/catkin_ws/src/install/baxter_examples/lib/python2.7/dist-packages/baxter_examples-1.2.0.egg-info
+Writing /home/rick/catkin_ws/src/install/baxter_examples/lib/python2.7/dist-packages/baxter_examples-1.2.0.egg-info
+Listing /home/rick/catkin_ws/src/build/baxter_examples/devel/lib/python2.7/dist-packages/baxter_examples/cfg ...
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_trajectory_client.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/digital_io_blink.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/analog_io_rampup.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_velocity_wobbler.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/gripper_joystick.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/head_wobbler.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_torque_springs.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_position_waypoints.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/head_action_client.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/xdisplay_image.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/navigator_io.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/gripper_keyboard.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_trajectory_file_playback.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_position_keyboard.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_recorder.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/gripper_cuff_control.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_position_joystick.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/ik_service_client.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_velocity_puppet.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/gripper_action_client.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/joint_position_file_playback.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/lib/baxter_examples/send_urdf_fragment.py
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/launch
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/launch/joint_trajectory_file_playback.launch
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/launch/joint_position_joystick.launch
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/launch/gripper_action_client.launch
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/launch/gripper_joystick.launch
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/launch/joint_trajectory_client.launch
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/share
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/share/images
+-- Up-to-date: /home/rick/catkin_ws/src/install/baxter_examples/share/baxter_examples/share/images/baxterworking.png

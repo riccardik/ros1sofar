@@ -1,0 +1,192 @@
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/rick/catkin_ws/src/build/baxter_interface/devel
+-- Using CMAKE_PREFIX_PATH: /home/rick/catkin_ws/src/install/baxter_core_msgs;/opt/ros/kinetic
+-- This workspace overlays: /home/rick/catkin_ws/src/install/baxter_core_msgs;/opt/ros/kinetic
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/rick/catkin_ws/src/build/baxter_interface/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rick/catkin_ws/src/build/baxter_interface
+[35m[1mScanning dependencies of target baxter_core_msgs_generate_messages_py[0m
+[  0%] Built target baxter_core_msgs_generate_messages_py
+[35m[1mScanning dependencies of target baxter_interface_gencfg[0m
+[ 20%] [34m[1mGenerating dynamic reconfigure files from cfg/PositionJointTrajectoryActionServer.cfg: /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py[0m
+[ 40%] [34m[1mGenerating dynamic reconfigure files from cfg/VelocityJointTrajectoryActionServer.cfg: /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py[0m
+Generating reconfiguration files for VelocityJointTrajectoryActionServer in baxter_interface
+Generating reconfiguration files for PositionJointTrajectoryActionServer in baxter_interface
+Wrote header file in /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+Wrote header file in /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+[ 60%] [34m[1mGenerating dynamic reconfigure files from cfg/PositionFFJointTrajectoryActionServer.cfg: /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py[0m
+[ 80%] [34m[1mGenerating dynamic reconfigure files from cfg/GripperActionServer.cfg: /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/GripperActionServerConfig.h /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py[0m
+Generating reconfiguration files for PositionFFJointTrajectoryActionServer in baxter_interface
+Wrote header file in /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+Generating reconfiguration files for GripperActionServer in baxter_interface
+Wrote header file in /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/GripperActionServerConfig.h
+[100%] [34m[1mGenerating dynamic reconfigure files from cfg/HeadActionServer.cfg: /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/HeadActionServerConfig.h /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py[0m
+Generating reconfiguration files for HeadActionServer in baxter_interface
+Wrote header file in /home/rick/catkin_ws/src/build/baxter_interface/devel/include/baxter_interface/HeadActionServerConfig.h
+[100%] Built target baxter_interface_gencfg
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target baxter_core_msgs_generate_messages_py
+[100%] Built target baxter_interface_gencfg
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/include/baxter_interface/PositionJointTrajectoryActionServerConfig.h
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/include/baxter_interface/VelocityJointTrajectoryActionServerConfig.h
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/include/baxter_interface/PositionFFJointTrajectoryActionServerConfig.h
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/include/baxter_interface/GripperActionServerConfig.h
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/include/baxter_interface/HeadActionServerConfig.h
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/cfg/__init__.py
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/lib/pkgconfig/baxter_interface.pc
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/share/baxter_interface/cmake/baxter_interfaceConfig.cmake
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/share/baxter_interface/cmake/baxter_interfaceConfig-version.cmake
+-- Symlinking: /home/rick/catkin_ws/src/install/baxter_interface/share/baxter_interface/package.xml
++ cd /home/rick/catkin_ws/src/baxter_interface
++ mkdir -p /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/build/baxter_interface/lib/python2.7/dist-packages:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/rick/catkin_ws/src/build/baxter_interface /usr/bin/python2 /home/rick/catkin_ws/src/baxter_interface/setup.py build --build-base /home/rick/catkin_ws/src/build/baxter_interface install --install-layout=deb --prefix=/home/rick/catkin_ws/src/install/baxter_interface --install-scripts=/home/rick/catkin_ws/src/install/baxter_interface/bin
+running build
+running build_py
+creating /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7
+creating /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/analog_io.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/digital_io.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/settings.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/robust_controller.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/robot_enable.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/camera.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/__init__.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/limb.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/head.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/gripper.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+copying src/baxter_interface/navigator.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface
+creating /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_control
+copying src/baxter_control/__init__.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_control
+copying src/baxter_control/pid.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_control
+creating /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow
+copying src/baxter_dataflow/weakrefset.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow
+copying src/baxter_dataflow/signals.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow
+copying src/baxter_dataflow/wait_for.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow
+copying src/baxter_dataflow/__init__.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow
+creating /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action
+copying src/joint_trajectory_action/bezier.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action
+copying src/joint_trajectory_action/minjerk.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action
+copying src/joint_trajectory_action/__init__.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action
+copying src/joint_trajectory_action/joint_trajectory_action.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action
+creating /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/gripper_action
+copying src/gripper_action/gripper_action.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/gripper_action
+copying src/gripper_action/__init__.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/gripper_action
+creating /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/head_action
+copying src/head_action/head_action.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/head_action
+copying src/head_action/__init__.py -> /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/head_action
+running install
+running install_lib
+creating /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow/weakrefset.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow/signals.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow/wait_for.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_dataflow/__init__.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow
+creating /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action/bezier.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action/minjerk.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action/__init__.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/joint_trajectory_action/joint_trajectory_action.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/analog_io.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/digital_io.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/settings.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/robust_controller.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/robot_enable.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/camera.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/__init__.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/limb.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/head.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/gripper.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_interface/navigator.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface
+creating /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/gripper_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/gripper_action/gripper_action.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/gripper_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/gripper_action/__init__.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/gripper_action
+creating /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_control
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_control/__init__.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_control
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/baxter_control/pid.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_control
+creating /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/head_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/head_action/head_action.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/head_action
+copying /home/rick/catkin_ws/src/build/baxter_interface/lib.linux-x86_64-2.7/head_action/__init__.py -> /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/head_action
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow/weakrefset.py to weakrefset.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow/signals.py to signals.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow/wait_for.py to wait_for.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_dataflow/__init__.py to __init__.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action/bezier.py to bezier.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action/minjerk.py to minjerk.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action/__init__.py to __init__.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/joint_trajectory_action/joint_trajectory_action.py to joint_trajectory_action.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/analog_io.py to analog_io.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/digital_io.py to digital_io.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/settings.py to settings.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/robust_controller.py to robust_controller.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/robot_enable.py to robot_enable.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/camera.py to camera.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/__init__.py to __init__.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/limb.py to limb.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/head.py to head.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/gripper.py to gripper.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface/navigator.py to navigator.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/gripper_action/gripper_action.py to gripper_action.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/gripper_action/__init__.py to __init__.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_control/__init__.py to __init__.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_control/pid.py to pid.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/head_action/head_action.py to head_action.pyc
+byte-compiling /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/head_action/__init__.py to __init__.pyc
+running install_egg_info
+Writing /home/rick/catkin_ws/src/install/baxter_interface/lib/python2.7/dist-packages/baxter_interface-1.2.0.egg-info
+Listing /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg ...
+Compiling /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/GripperActionServerConfig.py ...
+Compiling /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/HeadActionServerConfig.py ...
+Compiling /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionFFJointTrajectoryActionServerConfig.py ...
+Compiling /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/PositionJointTrajectoryActionServerConfig.py ...
+Compiling /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/VelocityJointTrajectoryActionServerConfig.py ...
+Compiling /home/rick/catkin_ws/src/build/baxter_interface/devel/lib/python2.7/dist-packages/baxter_interface/cfg/__init__.py ...
+-- Installing: /home/rick/catkin_ws/src/install/baxter_interface/lib/baxter_interface
+-- Installing: /home/rick/catkin_ws/src/install/baxter_interface/lib/baxter_interface/joint_trajectory_action_server.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_interface/lib/baxter_interface/gripper_action_server.py
+-- Installing: /home/rick/catkin_ws/src/install/baxter_interface/lib/baxter_interface/head_action_server.py

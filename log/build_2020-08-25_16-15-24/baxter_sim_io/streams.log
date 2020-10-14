@@ -1,0 +1,106 @@
+[0.062s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_io': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/rick/catkin_ws/src/baxter_simulator/baxter_sim_io -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rick/catkin_ws/src/install/baxter_sim_io
+[0.399s] -- The C compiler identification is GNU 5.4.0
+[0.532s] -- The CXX compiler identification is GNU 5.4.0
+[0.532s] -- Check for working C compiler: /usr/bin/cc
+[0.760s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.762s] -- Detecting C compiler ABI info
+[0.969s] -- Detecting C compiler ABI info - done
+[0.982s] -- Detecting C compile features
+[1.611s] -- Detecting C compile features - done
+[1.619s] -- Check for working CXX compiler: /usr/bin/c++
+[1.768s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.768s] -- Detecting CXX compiler ABI info
+[1.923s] -- Detecting CXX compiler ABI info - done
+[1.935s] -- Detecting CXX compile features
+[2.908s] -- Detecting CXX compile features - done
+[2.918s] -- Using CATKIN_DEVEL_PREFIX: /home/rick/catkin_ws/src/build/baxter_sim_io/devel
+[2.919s] -- Using CMAKE_PREFIX_PATH: /home/rick/catkin_ws/src/install/baxter_core_msgs;/opt/ros/kinetic
+[2.919s] -- This workspace overlays: /home/rick/catkin_ws/src/install/baxter_core_msgs;/opt/ros/kinetic
+[2.921s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.960s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+[2.970s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.970s] -- Using Debian Python package layout
+[2.970s] -- Using empy: /usr/bin/empy
+[3.375s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.376s] -- Call enable_testing()
+[3.378s] -- Using CATKIN_TEST_RESULTS_DIR: /home/rick/catkin_ws/src/build/baxter_sim_io/test_results
+[3.406s] -- Found gtest sources under '/usr/src/gmock': gtests will be built
+[3.406s] -- Found gmock sources under '/usr/src/gmock': gmock will be built
+[3.434s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+[3.434s] -- Looking for pthread.h
+[3.779s] -- Looking for pthread.h - found
+[3.780s] -- Looking for pthread_create
+[4.019s] -- Looking for pthread_create - not found
+[4.020s] -- Looking for pthread_create in pthreads
+[4.286s] -- Looking for pthread_create in pthreads - not found
+[4.287s] -- Looking for pthread_create in pthread
+[4.551s] -- Looking for pthread_create in pthread - found
+[4.554s] -- Found Threads: TRUE  
+[4.573s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.686s] -- catkin 0.7.20
+[4.686s] -- BUILD_SHARED_LIBS is on
+[5.736s] -- /usr/include/x86_64-linux-gnu/qt5//usr/include/x86_64-linux-gnu/qt5/QtWidgets/usr/include/x86_64-linux-gnu/qt5/QtGui/usr/include/x86_64-linux-gnu/qt5/QtCore/usr/lib/x86_64-linux-gnu/qt5//mkspecs/linux-g++-64/usr/include
+[5.752s] -- Configuring done
+[5.856s] -- Generating done
+[5.865s] -- Build files have been written to: /home/rick/catkin_ws/src/build/baxter_sim_io
+[5.873s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_io' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/rick/catkin_ws/src/baxter_simulator/baxter_sim_io -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rick/catkin_ws/src/install/baxter_sim_io
+[5.876s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_io': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_io -- -j2 -l2
+[5.964s] [35m[1mScanning dependencies of target baxter_sim_io_automoc[0m
+[6.019s] [  7%] [34m[1mAutomatic moc for target baxter_sim_io[0m
+[6.113s] [  7%] Built target baxter_sim_io_automoc
+[6.153s] [ 15%] [34m[1mGenerating include/baxter_sim_io/moc_qnode.cpp[0m
+[6.157s] [ 23%] [34m[1mGenerating qrc_sim_io.cpp[0m
+[6.276s] [ 30%] [34m[1mGenerating ui_baxter_io.h[0m
+[6.376s] [ 38%] [34m[1mGenerating include/baxter_sim_io/moc_baxter_io.cpp[0m
+[9.784s] [35m[1mScanning dependencies of target baxter_sim_io[0m
+[10.065s] [ 46%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/src/main.cpp.o[0m
+[14.110s] [ 53%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/src/baxter_io.cpp.o[0m
+[17.101s] [ 61%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/src/qnode.cpp.o[0m
+[19.616s] [ 69%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/qrc_sim_io.cpp.o[0m
+[19.772s] [ 76%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/include/baxter_sim_io/moc_baxter_io.cpp.o[0m
+[22.193s] [ 84%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/include/baxter_sim_io/moc_qnode.cpp.o[0m
+[24.117s] [ 92%] [32mBuilding CXX object CMakeFiles/baxter_sim_io.dir/baxter_sim_io_automoc.cpp.o[0m
+[24.135s] [100%] [32m[1mLinking CXX executable devel/lib/baxter_sim_io/baxter_sim_io[0m
+[24.493s] [100%] Built target baxter_sim_io
+[24.516s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_io' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_io -- -j2 -l2
+[24.581s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_io': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_io --target tests -- -j2 -l2
+[24.640s] [35m[1mScanning dependencies of target tests[0m
+[24.648s] Built target tests
+[24.663s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_io' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_io --target tests -- -j2 -l2
+[24.742s] Invoking command in '/home/rick/catkin_ws/src/build/baxter_sim_io': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_io --target install -- -j2 -l2
+[24.806s] [  7%] [34m[1mAutomatic moc for target baxter_sim_io[0m
+[24.828s] [  7%] Built target baxter_sim_io_automoc
+[24.879s] [100%] Built target baxter_sim_io
+[24.911s] [36mInstall the project...[0m
+[24.928s] -- Install configuration: ""
+[24.930s] -- Execute custom install script
+[24.931s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/lib/pkgconfig/baxter_sim_io.pc
+[24.945s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/cmake/baxter_sim_ioConfig.cmake
+[24.954s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/cmake/baxter_sim_ioConfig-version.cmake
+[24.970s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/package.xml
+[24.980s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/lib/baxter_sim_io/baxter_sim_io
+[25.001s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/include/baxter_sim_io/baxter_io.hpp
+[25.011s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/include/baxter_sim_io/qnode.hpp
+[25.018s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/arm.png
+[25.026s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff.png
+[25.032s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_grasp_p.png
+[25.041s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_grasp_r.png
+[25.048s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_ok_p.png
+[25.055s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_ok_r.png
+[25.063s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_squeeze_p.png
+[25.069s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/cuff_squeeze_r.png
+[25.077s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/left.png
+[25.097s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/logo.png
+[25.104s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav.png
+[25.118s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_cancel_p.png
+[25.124s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_cancel_r.png
+[25.135s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_ok_p.png
+[25.147s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_ok_r.png
+[25.155s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_show_p.png
+[25.162s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/nav_show_r.png
+[25.172s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/right.png
+[25.191s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/robot_arm.png
+[25.205s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/sim_io.qrc
+[25.212s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/resources/torso.png
+[25.221s] -- Symlinking: /home/rick/catkin_ws/src/install/baxter_sim_io/share/baxter_sim_io/ui/baxter_io.ui
+[25.234s] Invoked command in '/home/rick/catkin_ws/src/build/baxter_sim_io' returned '0': CMAKE_PREFIX_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/rick/catkin_ws/src/install/baxter_core_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/rick/catkin_ws/src/build/baxter_sim_io --target install -- -j2 -l2
