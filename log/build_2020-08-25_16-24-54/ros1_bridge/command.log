@@ -1,2 +1,0 @@
-Invoking command in '/home/rick/catkin_ws/src/build/ros1_bridge': /usr/bin/cmake /home/rick/catkin_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/catkin_ws/src/install/ros1_bridge
-Invoked command in '/home/rick/catkin_ws/src/build/ros1_bridge' returned '1': /usr/bin/cmake /home/rick/catkin_ws/src/ros1_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rick/catkin_ws/src/install/ros1_bridge
