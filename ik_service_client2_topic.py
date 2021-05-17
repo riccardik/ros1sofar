@@ -32,6 +32,7 @@ from geometry_msgs.msg import (
 )
 from std_msgs.msg import Header
 from std_msgs.msg import Float64
+from std_msgs.msg import String
 
 from baxter_core_msgs.srv import (
     SolvePositionIK,
@@ -48,6 +49,15 @@ from baxter_core_msgs.msg import (
 global limb
 global req_pos
 limb="left"
+
+def endpoint_pos_callback(data):
+    position = Point()
+    position= data.pose.position
+    #print (position)
+    pub_endpoint = rospy.Publisher('left_endpoint_pos', Point, queue_size=1)
+    pub_endpoint.publish(position)
+
+    
 
 def pose_callback(data):
     global req_pos
@@ -95,6 +105,7 @@ def pose_callback(data):
     except (rospy.ServiceException, rospy.ROSException), e:
         rospy.logerr("Service call failed: %s" % (e,))
         return 1
+    esit_pub = rospy.Publisher('/ik_result', String, queue_size=1)
 
     # Check if result valid, and type of seed ultimately used to get solution
     # convert rospy's string representation of uint8[]'s to int's
@@ -108,6 +119,9 @@ def pose_callback(data):
                    }.get(resp_seeds[0], 'None')
         print("SUCCESS - Valid Joint Solution Found from Seed Type: %s" %
               (seed_str,))
+        msg_s = String()
+        msg_s.data="SUCCESS"
+        esit_pub.publish(msg_s)
         print "------------------"
         print "------------------"
         print "------------------"
@@ -128,6 +142,7 @@ def pose_callback(data):
             it=1
         pub1.publish(gr1)
         pub2 = rospy.Publisher('/robot/left_gripper_controller/joints/l_gripper_l_finger_controller/command', Float64, queue_size=1) 
+        
         gr2=Float64()
         gr2.data= 1        
         while pub2.get_num_connections() < 1:
@@ -164,10 +179,14 @@ def pose_callback(data):
         pub2.publish(gr2)
     else:
         print("INVALID POSE - No Valid Joint Solution Found.")
+        msg_s = String()
+        msg_s.data="FAILED"
+        esit_pub.publish(msg_s)
 
 def ik_test(limb):
     rospy.init_node("rsdk_ik_service_client")
     rospy.Subscriber("position_sub", Point, pose_callback)
+    rospy.Subscriber("/robot/limb/left/endpoint_state", EndpointState,endpoint_pos_callback)
     while 1:
         rospy.sleep(1)
 
