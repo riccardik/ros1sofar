@@ -1,0 +1,11 @@
+
+
+
+<launch>
+
+ <node name="urdf_spawner_can" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+        args="-file /home/rick/.gazebo/models/coke_can2/model.sdf -sdf -x 0.5 -y 0.5 -z 1 -model coke_can2"/>
+<node name="ee_position_control" pkg="baxter_control_sofar" type="ik_service_client2_topic.py" respawn="false" output="screen"
+	args="-l left"/>
+
+</launch>
