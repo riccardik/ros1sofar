@@ -19,6 +19,10 @@ move coke model
         x: 0.5
         y: 0.5
         z: 0.5" 
+or in alternative
+    rosrun baxter_control_sofar move_coke_topic.py
+publish point on `/coke_can_coords`
+
 
 start inverse kinematic script
 
