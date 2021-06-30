@@ -1,4 +1,4 @@
-# Packages to control baxter
+# Packages to control baxter's left end effector position
 
 
 ## Steps to Execute simulation
