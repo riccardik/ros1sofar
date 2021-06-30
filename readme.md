@@ -3,15 +3,17 @@
 
 ## Steps to Execute simulation
 
-- start baxter simulation and all necessary nodes: (this will include all the steps below)
+- execute the simulation script: `./baxter.sh`
+- start baxter simulation, when it has spawned correctly launch the second launch file in a new terminal window: (this will include all the steps below)
 
     `roslaunch baxter_control_sofar baxter_world.launch `
+    `roslaunch baxter_control_sofar spawn.launch `
 
 - start each node separately
 
     start baxter simulation
 
-        roslaunch baxter_gazebo baxter_world.launch
+        roslaunch baxter_control_sofar baxter_world.launch
 
     spawn coke model
 
@@ -39,9 +41,13 @@ in alternative open a new bash script and run this command:
     rosrun baxter_control_sofar move_coke_topic.py
 
 publish point on the topic  `/coke_can_coords`
+    rostopic pub /coke_can_cods geometry_msgs/Point "x: 0.5
+    y: 0.4
+    z: 0.8" 
+
 
 ### send a goal to the end effector
 
-    rostopic pub positn_sub geometry_msgs/Point "x: 0.5
-    y: 0.4
-    z: -0.1" 
+rostopic pub position_sub geometry_msgs/Point "x: 0.5
+y: 0.4
+z: -0.1" 

@@ -18,11 +18,10 @@ def callback(msg_point):
     
 def listener():
 
-    # In ROS, nodes are uniquely named. If two nodes with the same
-    # name are launched, the previous one is kicked off. The
-    # anonymous=True flag means that rospy will choose a unique
-    # name for our 'listener' node so that multiple listeners can
-    # run simultaneously.
+    '''
+        Republishes the point received as a ModelState to move the coke model
+    '''
+
     rospy.init_node('move_coke', anonymous=True)
     global pub_position
     pub_position = rospy.Publisher('/gazebo/set_model_state', ModelState, queue_size=10)

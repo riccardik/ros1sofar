@@ -235,7 +235,7 @@ def ik_test(limb):
 
 
 def main():
-    """RSDK Inverse Kinematics Example
+    """RSDK Inverse Kinematics 
 
     
     """
@@ -243,7 +243,7 @@ def main():
     parser = argparse.ArgumentParser(formatter_class=arg_fmt,
                                      description=main.__doc__)
     parser.add_argument(
-        '-l', '--limb', choices=['left', 'right'], required=True,
+        '-l', '--limb', choices=['left', 'right'], required=False,
         help="the limb to test"
     )
     args = parser.parse_args(rospy.myargv()[1:])
