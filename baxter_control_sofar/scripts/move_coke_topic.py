@@ -12,7 +12,7 @@ def callback(msg_point):
     msg.model_name = 'coke_can2'
     msg.pose.position.x=msg_point.x
     msg.pose.position.y=msg_point.y
-    msg.pose.position.z=msg_point.z
+    msg.pose.position.z=msg_point.z+0.9
     pub_position.publish(msg)
     #print(msg)
     
