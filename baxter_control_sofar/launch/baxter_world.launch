@@ -62,6 +62,8 @@
       <arg name="left_electric_gripper" value="$(arg left_electric_gripper)"/>
       <arg name="gui" value="$(arg gui)" />
   </include>
+  <include file="$(find baxter_control_sofar)/launch/spawn.launch"> />
+  </include>
    
 
 </launch>
