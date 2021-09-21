@@ -1,5 +1,10 @@
-# Packages to control baxter's left end effector position
-
+# Package to control baxter's left end effector position
+BANXTER PROJECT - SOFAR - Robotics Engineering UNIGE
+## Installation and requirements
+- Ubuntu 16.04 x64 (https://releases.ubuntu.com/16.04/)
+- Ros Kinetic (http://wiki.ros.org/kinetic/Installation/Ubuntu)
+- Gazebo 7.15 (included in full installation of ROS kinetic)
+- Baxter Simulator (https://sdk.rethinkrobotics.com/wiki/Simulator_Installation, following the steps for Ros Kinetic)
 
 ## Steps to Execute simulation
 
@@ -7,7 +12,7 @@
 - start baxter simulation, when it has spawned correctly launch the second launch file in a new terminal window: (this will include all the steps below)
 
     `roslaunch baxter_control_sofar baxter_world.launch `
-    
+
     `roslaunch baxter_control_sofar spawn.launch ` #optional and included in the first launch file
 
 - start each node separately
