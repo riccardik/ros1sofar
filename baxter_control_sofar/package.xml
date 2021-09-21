@@ -3,14 +3,14 @@
   <name>baxter_control_sofar</name>
   <version>1.2.0</version>
   <description>
-    Example programs for Baxter SDK usage.
+    Package developed from Baxter SDK to fulfill the requirement of the SOFAR assignment.
   </description>
 
   <maintainer email="rsdk.support@rethinkrobotics.com">
-    Rethink Robotics Inc.
+    Riccardo Lastrico
   </maintainer>
   <license>BSD</license>
-  <author>Lastrico Riccard</author>
+  <author>Lastrico Riccardo</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 

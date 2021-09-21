@@ -3,10 +3,11 @@
 
 
 """
-Baxter RSDK Inverse Kinematics Example
+Baxter Inverse Kinematics
+This script can be used to send EE goals to the Baxter robot and use its internal engine for Inverse Kinematics to generate the joint's position to reach it
 
 rosrun baxter_examples ik_service_client2_topic.py -l left
-rostopic pub positn_sub geometry_msgs/Point "x: 0.8
+rostopic pub position_sub geometry_msgs/Point "x: 0.8
 y: 0.8
 z: 0.03" 
 
@@ -183,7 +184,6 @@ def pose_callback(data):
         while pub.get_num_connections() < 1:
             it=1
             # wait for a connection to publisher
-            # you can do whatever you like here or simply do nothing
 
         pub.publish(jointss)
 
@@ -217,7 +217,7 @@ def ik_test(limb):
     rs = baxter_interface.RobotEnable()
     rs.enable()
     pubj = rospy.Publisher('/robot/limb/left/joint_command', JointCommand, queue_size=1)  
-    #put joint in a decent seed position
+    #initialize joints position
     jointss=JointCommand()
     jointss.mode= 1
     jointss.names= ["left_s0", "left_s1", "left_e0", "left_e1", "left_w0", "left_w1", "left_w2"]
