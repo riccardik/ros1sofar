@@ -19,7 +19,7 @@ BANXTER PROJECT - SOFAR - Robotics Engineering UNIGE
 
     start baxter simulation
 
-        cd ~/catkin_ws$
+        cd ~/catkin_ws
         roslaunch baxter_control_sofar baxter_world.launch
 
     spawn coke model
