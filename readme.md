@@ -7,6 +7,7 @@
 - start baxter simulation, when it has spawned correctly launch the second launch file in a new terminal window: (this will include all the steps below)
 
     `roslaunch baxter_control_sofar baxter_world.launch `
+    
     `roslaunch baxter_control_sofar spawn.launch ` #optional and included in the first launch file
 
 - start each node separately
