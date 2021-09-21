@@ -44,6 +44,7 @@ in alternative open a new bash script and run this command:
     rosrun baxter_control_sofar move_coke_topic.py
 
 publish point on the topic  `/coke_can_coords`
+
     rostopic pub /coke_can_cods geometry_msgs/Point "x: 0.5
     y: 0.4
     z: 0.8" 
@@ -51,9 +52,9 @@ publish point on the topic  `/coke_can_coords`
 
 ### send a goal to the end effector
 
-rostopic pub position_sub geometry_msgs/Point "x: 0.5
-y: 0.4
-z: -0.1" 
+    rostopic pub position_sub geometry_msgs/Point "x: 0.5
+    y: 0.4
+    z: -0.1" 
 
 ## Generated topic and nodes
 <img src="pictures/rosgraph.png" width="800">
