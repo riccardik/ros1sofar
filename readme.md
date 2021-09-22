@@ -8,6 +8,7 @@ BANXTER PROJECT - SOFAR - Robotics Engineering UNIGE
 
 ## Steps to Execute simulation
 
+- ` cd ~/catkin_ws`
 - execute the simulation script: `./baxter.sh localhost`
 - start baxter simulation, when it has spawned correctly launch the second launch file in a new terminal window: (this will include all the steps below)
 
