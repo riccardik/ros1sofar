@@ -15,6 +15,7 @@ z: 0.03"
 import argparse
 import struct
 import sys
+import time
 
 import rospy
 
@@ -68,14 +69,18 @@ def pose_callback(data):
     """ rs = baxter_interface.RobotEnable(CHECK_VERSION)
     init_state = rs.state().enabled """
     global rs
-    left = baxter_interface.Gripper('left', CHECK_VERSION)
-    left.open()
+    try:
+        left = baxter_interface.Gripper('left', CHECK_VERSION)
+        left.open()
+    except(rospy.ServiceException, rospy.ROSException,OSError), e:
+        return
 
     
     ns = "ExternalTools/" + limb + "/PositionKinematicsNode/IKService"
     iksvc = rospy.ServiceProxy(ns, SolvePositionIK)
     ikreq = SolvePositionIKRequest()
-    hdr = Header(stamp=rospy.Time.now(), frame_id='base')
+    #hdr = Header(stamp=rospy.Time.now(), frame_id='base')
+    hdr = Header(frame_id='base')
 
     
     q1 = Quaternion(
@@ -102,7 +107,9 @@ def pose_callback(data):
     #ikreq.pose_stamp.append(poses[limb])kk
     ikreq.pose_stamp.append(pose1)
     try:
-        rospy.wait_for_service(ns, 5.0)
+        #rospy.wait_for_service(ns, 5.0)
+        rospy.wait_for_service(ns,timeout=None)
+        #time.sleep(0.00001)
         resp = iksvc(ikreq)
     except (rospy.ServiceException, rospy.ROSException), e:
         rospy.logerr("Service call failed: %s" % (e,))
@@ -123,11 +130,14 @@ def pose_callback(data):
         jointss.command= [0.3202501782043669, 0.9507986021454259, -2.697083727757709, 1.662214963899674, 2.955581123794093, 1.6476877105908354, -0.19474867975667742]       
 
         pub.publish(jointss)
-        rospy.sleep(1)
+        #rospy.sleep(1)
+        time.sleep(1)
 
         ikreq.pose_stamp.append(pose1)
         try:
-            rospy.wait_for_service(ns, 5.0)
+            #rospy.wait_for_service(ns, 5.0)
+            rospy.wait_for_service(ns,timeout=None)
+            #time.sleep(0.00001)
             resp = iksvc(ikreq)
         except (rospy.ServiceException, rospy.ROSException), e:
             rospy.logerr("Service call failed: %s" % (e,))
@@ -187,7 +197,8 @@ def pose_callback(data):
 
         pub.publish(jointss)
 
-        rospy.sleep(1)
+        #rospy.sleep(1)
+        time.sleep(1)
         #open gripper
         pub1 = rospy.Publisher('/robot/left_gripper_controller/joints/l_gripper_r_finger_controller/command', Float64, queue_size=1) 
         gr1=Float64()
@@ -222,12 +233,15 @@ def ik_test(limb):
     jointss.mode= 1
     jointss.names= ["left_s0", "left_s1", "left_e0", "left_e1", "left_w0", "left_w1", "left_w2"]
     jointss.command= [0.3202501782043669, 0.9507986021454259, -2.697083727757709, 1.662214963899674, 2.955581123794093, 1.6476877105908354, -0.19474867975667742]
-    rospy.sleep(3)
+    #rospy.sleep(3)
+    time.sleep(3)
 
     pubj.publish(jointss)
-    rospy.sleep(1)
+    #rospy.sleep(1)
+    time.sleep(1)
     while 1:
-        rospy.sleep(1)
+        #rospy.sleep(1)
+        time.sleep(1)
 
     
 
