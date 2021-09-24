@@ -1,0 +1,25 @@
+actions: []
+authors: Lastrico Riccardo
+brief: ''
+bugtracker: ''
+depends:
+- dynamic_reconfigure
+- baxter_interface
+- xacro
+- actionlib
+- trajectory_msgs
+- sensor_msgs
+- baxter_core_msgs
+- catkin
+- rospy
+- control_msgs
+- cv_bridge
+description: Package developed from Baxter SDK to fulfill the requirement of the SOFAR
+  assignment.
+license: BSD
+maintainers: Riccardo Lastrico <rsdk.support@rethinkrobotics.com>
+msgs: []
+package_type: package
+repo_url: ''
+srvs: []
+url: ''

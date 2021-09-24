@@ -1,0 +1,5 @@
+<map id="baxter_external_devices.joystick.Joystick" name="baxter_external_devices.joystick.Joystick">
+<area shape="rect" id="node3" href="$classbaxter__external__devices_1_1joystick_1_1LogitechController.html" title="baxter_external_devices.joystick.\lLogitechController" alt="" coords="375,5,591,47"/>
+<area shape="rect" id="node4" href="$classbaxter__external__devices_1_1joystick_1_1PS3Controller.html" title="baxter_external_devices.joystick.\lPS3Controller" alt="" coords="375,71,591,112"/>
+<area shape="rect" id="node5" href="$classbaxter__external__devices_1_1joystick_1_1XboxController.html" title="baxter_external_devices.joystick.\lXboxController" alt="" coords="375,136,591,177"/>
+</map>

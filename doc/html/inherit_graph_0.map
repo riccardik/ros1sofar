@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classbaxter__examples_1_1recorder_1_1JointRecorder.html" title="baxter_examples.recorder.\lJointRecorder" alt="" coords="131,5,307,47"/>
+<area shape="rect" id="node3" href="$classbaxter__external__devices_1_1joystick_1_1ButtonTransition.html" title="baxter_external_devices.joystick.\lButtonTransition" alt="" coords="111,71,327,112"/>
+<area shape="rect" id="node4" href="$classbaxter__external__devices_1_1joystick_1_1Joystick.html" title="baxter_external_devices.joystick.\lJoystick" alt="" coords="111,136,327,177"/>
+<area shape="rect" id="node8" href="$classbaxter__external__devices_1_1joystick_1_1StickTransition.html" title="baxter_external_devices.joystick.\lStickTransition" alt="" coords="111,201,327,243"/>
+<area shape="rect" id="node5" href="$classbaxter__external__devices_1_1joystick_1_1LogitechController.html" title="baxter_external_devices.joystick.\lLogitechController" alt="" coords="375,71,591,112"/>
+<area shape="rect" id="node6" href="$classbaxter__external__devices_1_1joystick_1_1PS3Controller.html" title="baxter_external_devices.joystick.\lPS3Controller" alt="" coords="375,136,591,177"/>
+<area shape="rect" id="node7" href="$classbaxter__external__devices_1_1joystick_1_1XboxController.html" title="baxter_external_devices.joystick.\lXboxController" alt="" coords="375,201,591,243"/>
+</map>
