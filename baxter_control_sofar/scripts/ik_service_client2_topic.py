@@ -2,16 +2,6 @@
 
 
 
-"""
-Baxter Inverse Kinematics
-This script can be used to send EE goals to the Baxter robot and use its internal engine for Inverse Kinematics to generate the joint's position to reach it
-
-rosrun baxter_examples ik_service_client2_topic.py -l left
-rostopic pub position_sub geometry_msgs/Point "x: 0.8
-y: 0.8
-z: 0.03" 
-
-"""
 import argparse
 import struct
 import sys
@@ -47,6 +37,16 @@ from baxter_core_msgs.msg import (
 )
 
 
+'''
+Baxter Inverse Kinematics
+This script can be used to send EE goals to the Baxter robot and use its internal engine for Inverse Kinematics to generate the joint's position to reach it
+
+rosrun baxter_examples ik_service_client2_topic.py -l left
+rostopic pub position_sub geometry_msgs/Point "x: 0.8
+y: 0.8
+z: 0.03" 
+
+'''
 
 global limb
 global req_pos
@@ -62,6 +62,11 @@ def endpoint_pos_callback(data):
     
 
 def pose_callback(data):
+
+    '''
+    Callback to trigger the IK service
+    data is a ros message of type: geometry_msgs.msg/Point
+    '''
     global req_pos
     req_pos = data
     print(req_pos)
@@ -267,4 +272,14 @@ def main():
     return ik_test(args.limb)
 
 if __name__ == '__main__':
+    '''
+    Baxter Inverse Kinematics
+    This script can be used to send EE goals to the Baxter robot and use its internal engine for Inverse Kinematics to generate the joint's position to reach it
+
+    rosrun baxter_examples ik_service_client2_topic.py -l left
+    rostopic pub position_sub geometry_msgs/Point "x: 0.8
+    y: 0.8
+    z: 0.03" 
+
+    '''
     sys.exit(main())

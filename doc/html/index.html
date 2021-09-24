@@ -20,13 +20,79 @@
 <div class="title">baxter_control_sofar Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
+  <h1 id="package-to-control-baxter-s-left-end-effector-position">Package to control baxter&#39;s left end effector position</h1>
+  <p>BANXTER PROJECT - SOFAR - Robotics Engineering UNIGE</p>
+  <h2 id="installation-and-requirements">Installation and requirements</h2>
+  <ul>
+  <li>Ubuntu 16.04 x64 (<a href="https://releases.ubuntu.com/16.04/">https://releases.ubuntu.com/16.04/</a>)</li>
+  <li>Ros Kinetic (<a href="http://wiki.ros.org/kinetic/Installation/Ubuntu">http://wiki.ros.org/kinetic/Installation/Ubuntu</a>)</li>
+  <li>Gazebo 7.15 (included in full installation of ROS kinetic)</li>
+  <li>Baxter Simulator (<a href="https://sdk.rethinkrobotics.com/wiki/Simulator_Installation">https://sdk.rethinkrobotics.com/wiki/Simulator_Installation</a>, following the steps for Ros Kinetic)</li>
+  </ul>
+  <h2 id="configuration">Configuration</h2>
+  <p>Configure the IP of the local machine: open <code>~/catkin_ws/baxter.sh</code> (i will from now on assume that <code>catkin_ws</code> is the name of the workspace)with a text editor and modify the following line by inserting the Ip address of current machine of:</p>
+  <pre><code><span class="hljs-attr">your_ip</span>=<span class="hljs-string">"130.251.13.108"</span>
+  </code></pre><h2 id="steps-to-launch-the-simulation">Steps to launch the simulation</h2>
+  <p>Execute the script to initialize the simulation</p>
+  <pre><code> cd ~/catkin_ws
+  ./baxter<span class="hljs-selector-class">.sh</span> localhost
+  roslaunch baxter_control_sofar baxter_world<span class="hljs-selector-class">.launch</span> 
+  </code></pre><p>Start the simulation: this launch file will spawn the baxter robot in a Gazebo simulation, together with all the services necessary. In addition, it will spawn a SDF model of a can of coke (the gravity and collision are disabled on this model). The can will act as a placeholder to better visualize the Baxter&#39;s left end effector position goal.
+  <img src="pictures/after_spawn.png" width="800"></p>
+  <h2 id="testing">Testing</h2>
+  <p>Is possible to launch all the nodes separately to test if each one is working properly:</p>
+  <ul>
+  <li><p>Using launch files, start baxter simulation, when it has spawned correctly launch the second launch file in a new terminal window: (this will include all the steps below)</p>
+  <pre><code>  roslaunch baxter_control_sofar baxter_world_test<span class="hljs-selector-class">.launch</span>
+    roslaunch baxter_control_sofar spawn<span class="hljs-selector-class">.launch</span> 
+  </code></pre></li>
+  <li><p>start each node separately</p>
+  <p>  start baxter simulation</p>
+  <pre><code>  cd ~/catkin_ws
+    roslaunch baxter_control_sofar baxter_world.<span class="hljs-built_in">launch</span>
+  </code></pre><p>  spawn coke model</p>
+  <pre><code>  rosrun gazebo_ros spawn_model -<span class="hljs-keyword">file</span> /home/rick/.gazebo/<span class="hljs-keyword">models</span>/coke_can2/<span class="hljs-keyword">model</span>.sdf -sdf -x <span class="hljs-number">0.5</span> -y <span class="hljs-number">0.5</span> -z <span class="hljs-number">1</span> -<span class="hljs-keyword">model</span> coke_can2
+  </code></pre><p>  start inverse kinematic script</p>
+  <pre><code>  rosrun baxter_control_sofar ik_service_client2_topic<span class="hljs-selector-class">.py</span> -l <span class="hljs-attribute">left</span>
+  </code></pre><p>  start the script to move the model of the coke can</p>
+  <pre><code>  rosrun <span class="hljs-keyword">baxter_control_sofar </span><span class="hljs-keyword">move_coke_topic.py</span>
+  </code></pre></li>
+  </ul>
+  <h2 id="interact-with-the-simulation">Interact with the simulation</h2>
+  <h3 id="coke-model">Coke model</h3>
+  <p>move coke model by publishing on the gazebo topic:</p>
+  <pre><code>rostopic pub /gazebo/set_model_state gazebo_msgs/ModelState <span class="hljs-string">"model_name: 'coke_can2'</span>
+  pose:
+  position:
+      x: <span class="hljs-number">0.5</span>
+      y: <span class="hljs-number">0.5</span>
+      z: <span class="hljs-number">0.5</span><span class="hljs-string">" </span>
+  </code></pre><p>in alternative open a new bash script and run this command:</p>
+  <pre><code><span class="hljs-symbol">rosrun</span> <span class="hljs-keyword">baxter_control_sofar </span><span class="hljs-keyword">move_coke_topic.py</span>
+  </code></pre><p>publish point on the topic  <code>/coke_can_coords</code></p>
+  <pre><code><span class="hljs-attribute">rostopic pub /coke_can_cods geometry_msgs/Point "x</span>: 0.5
+  <span class="hljs-attribute">y</span>: 0.4
+  <span class="hljs-attribute">z</span>: 0.8" 
+  </code></pre><h3 id="send-a-goal-to-the-end-effector">send a goal to the end effector</h3>
+  <pre><code><span class="hljs-attribute">rostopic pub position_sub geometry_msgs/Point "x</span>: 0.5
+  <span class="hljs-attribute">y</span>: 0.4
+  <span class="hljs-attribute">z</span>: -0.1" 
+  </code></pre><h2 id="generated-topic-and-nodes">Generated topic and nodes</h2>
+  <p><img src="pictures/rosgraph.png" width="800">
+  Most of the topics and nodes shown in the image are the ones generated by the Baxter&#39;s simulation and the control SDK.
+  Here follow the description of the implemented nodes:</p>
+  <ul>
+  <li><code>move_coke_can</code>: this node will subsribe to the topic <code>coke_can_coords</code> (a Point message) and it will republish to the Gazebo service <code>/gazebo/set_model_state</code> as a ModelState, to change the coke model&#39;s position in Gazebo.</li>
+  <li><code>ee_position_control</code>: the node will subscribe to the topic <code>/position_sub</code>, which will contain the goal position of the left end-effector of Baxster. The node will then call Baxter&#39;s <code>/PositionKinematicsNode/IKService</code> that will return the left arm&#39;s joint position to achieve the EE positioning. The message containing the joint&#39;s position will then be published in <code>/robot/limb/left/joint_command</code>. If the goal cannot be achieived (a robot&#39;s joint could be in a singularity), the robot will move in a joint position without singularities and will try again to reach the goal, if still it cannot be reached a &quot;FAILED&quot; message will be printed on the terminal.</li>
+  </ul>
+  
 </div><!-- contents -->
 
 <br clear="all" />
 <hr size="1"><div style="align: right;">
 <a href="http://wiki.ros.org/baxter_control_sofar">baxter_control_sofar</a><br />
 Author(s): Lastrico Riccardo</br />
-<small>autogenerated on Fri Sep 24 2021 19:10:59</small>
+<small>autogenerated on Fri Sep 24 2021 19:18:08</small>
 </div>
 </body>
 </html>

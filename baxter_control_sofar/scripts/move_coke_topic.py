@@ -3,8 +3,7 @@ import rospy
 from std_msgs.msg import String
 from geometry_msgs.msg import Point
 from gazebo_msgs.msg import ModelState
-
-"""
+'''
 Move coke model
 This script is used to move in the environment the model of a coke in the Baxter's frame, which will be used to visualize where the goal position of the EE of Baxter will be located.
 To move the model is necessary to launch the script and then publish on the position's topic:
@@ -14,10 +13,14 @@ rostopic pub /coke_can_cods geometry_msgs/Point "x: 0.5
     y: 0.4
     z: 0.8" 
 
-"""
+'''
 global pub_position
 
 def callback(msg_point):
+    '''
+    Callback to move the coke_can model
+    msg_point is a ros message of type: geometry_msgs.msg/Point
+    '''
     
     print("moving coke to ", msg_point)
 
